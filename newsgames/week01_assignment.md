@@ -4,7 +4,7 @@ Paper Prototypes;
 
 Why? [Because](http://www.pbs.org/idealab/2011/09/why-newsgame-development-should-look-to-paper-prototyping256.html)
 
-Also read []Dribbblisation](http://insideintercom.io/the-dribbblisation-of-design/) 
+Also read [Dribbblisation](http://insideintercom.io/the-dribbblisation-of-design/) 
 
 ### Big Games
 Choose three of the following to play and review:

@@ -1,13 +1,14 @@
 /* Following are the presentation styles -- edit away! */
 
 body {
-    background: #FFF color: #111;
-    font-size: 2em;
+    background: #FFF;
+    color: #111;
+    font-size: 1em;
     font-family: 'Blue Highway', Helvetica, sans-serif;
     }
 :link, :visited {
     text-decoration: none;
-    color: #00C;
+    color: #227;
     }
 #controls :active {
     color: #88A !important;
@@ -199,7 +200,7 @@ div#controls form {
     padding: 0;
     font: bold 2em 'Blue Highway', Helvetica, sans-serif;
     white-space: normal;
-    color: #000;
+    color: #001b33;
     background: transparent;
     }
 #slide0 h2 {

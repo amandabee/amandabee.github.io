@@ -53,17 +53,23 @@ Amanda Hickman managed development of a series of games about public policy issu
 
 Amanda helped launch The New York World, and was program director at DocumentCloud, a Knight News Challenge funded project that reporters around the world are using to analyze, annotate, and publish primary source documents.
 
+**Office Hours**
+Wednesday and Thursday 12-2
+Tuesday after 2 by advance appointment
+http://piratepad.net/amandahickman
+
+
 You will work in small groups to design and build interactive and engaging news games that tell a substantive story well and get readers interested in an issue. 
 
 They’ll develop a pitch, an offline game prototype, and then a working online game, stopping along the way to make sure the game is still about the news story that sparked it.
 
-Week-by-Week
+##Week-by-Week
  
 Class 1: What makes a news game newsworthy?
-The class will evaluate existing games, discuss ideas students already have for games worth building and break into small groups to start working out how their ideas might play out as games. 
+Evaluate existing games, discuss your game ideas and break into small groups to start working out how ideas might play out as games. 
  
 Class 2: Game play and storytelling
-Students will bring in offline prototypes of their games that the class can play and evaluate. Together, we’ll ask whether the news event is still at the center of the game and whether the game play is intuitive enough to succeed online. We’ll also start looking at data structure, to make sure students can develop a clear roadmap of all the texts and facts they’ll need to build the final game.
+Bring in offline prototypes of their games that the class can play and evaluate. Together, we’ll ask whether the news event is still at the center of the game and whether the game play is intuitive enough to succeed online. We’ll also start looking at data structure, to make sure students can develop a clear roadmap of all the texts and facts they’ll need to build the final game.
  
 Class 3: Programming simple interactions
 The third week will be the most technical. Students will have played and revised their games and will come to class armed with the texts and images that they want players to encounter during the course of play. We’ll look at how to program and troubleshoot interactions between player and server. 
