@@ -32,7 +32,7 @@ Loosely, computer languages exist in two forms: compiled languages are languages
 http://en.wikipedia.org/wiki/Compiled_language
 http://en.wikipedia.org/wiki/Interpreted_language
 
-If you think about the programs you use every day, stuff like Firefox, that is all compiled software. I'm pretty sure Word is written in C++ You can't just go read the source code even if you want to. It is a useful thing to know, but you're not really going to write software in C++
+If you think about the programs you use every day, stuff like your operating system or Firefox, that is all compiled software. I'm pretty sure Word is written in C++ You can't just go read the source code even if you want to. It is a useful thing to know, but you're not really going to write software in C++
 
 + I was going to say that compiled languages don't matter, but you would have learned very very good form. C++ compilers care about indentation. C++ compilers know the difference between a tab and a space, so if you'd studied CS, you would have really good practice indenting code and you'd be very comfortable spotting inconsistencies in code. Mostly because you'd have a lot of practice. Lucky for us, you can get practice. Especially if you accept that tidiness matters. 
 
@@ -53,7 +53,7 @@ I can't tell you how many times I get messages like this from students:
 	
 	> I noticed the code for the interactive chart isn't working. I tried adding "http:" before the "//" (like we did in class), but no luck.
 
-What error are you getting? When you say the code isn't working, what do you mean? StackOverflow (which is an indispensable resource!) has a good roundoup of advice on asking good questions: http://stackoverflow.com/questions/how-to-ask
+What error are you getting? When you say the code isn't working, what do you mean? StackOverflow (which is an indispensable resource!) has a good roundoup of advice on [asking good questions](http://stackoverflow.com/questions/how-to-ask) and I offer my students [some advice](http://datadrivenjournalism.fall.2013.journalism.cuny.edu/good-questions/)
 
 The best questions, the ones that get answered, are clear and concise.
 
