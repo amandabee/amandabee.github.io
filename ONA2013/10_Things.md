@@ -4,7 +4,7 @@ Things you would have learned:
 
 * Computer Science is not software engineering, and it definitely isn't what most of you are trying to do. 
 
-I polled a statistically significant number of CS majors and people who hung around them in college (5) and they learned C++, C, Ada, Java, Python, LISP, perl.
+I polled a statistically significant number of CS majors and people who hung around them in college (5) and they learned C++, C, Ada, Java, Python, LISP, perl, MIPS, Scheme.
 
 You'd learn stuff like this:
 http://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
