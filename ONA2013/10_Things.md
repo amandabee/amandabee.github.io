@@ -3,7 +3,7 @@ Lisa Williams and I are leading a workshop on [10 Things You Missed by not major
 
 + Computer Science is not software engineering, and it definitely isn't what most of you are trying to do. 
 
-I polled a statistically significant number of CS majors and people who hung around them in college (5) and they learned C++, C, Ada, Java, Python, LISP, MIPS, Scheme.
+I polled a statistically significant number of CS majors and people who hung around them in college (5) and they learned C++, C, Ada, OOPas, Java, Python, LISP, MIPS, Scheme.
 
 You'd learn stuff like this:
 http://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
@@ -58,12 +58,60 @@ What error are you getting? When you say the code isn't working, what do you mea
 The best questions, the ones that get answered, are clear and concise.
 
 
-+ Basic Programming Concepts
++ Basic Programming Concepts 
 
-One good intro http://computationaltheory.tumblr.com/post/39873698957/the-building-blocks-of-code
-http://computationaltheory.tumblr.com/post/40052373796/the-building-blocks-of-code-part-2
+There are some useful things you might have learned, though: 
 
-From http://www.gamasutra.com/blogs/AlexRose/20121120/181941/Making_Games_with_No_Previous_Experience__Part_1_Code.php
+++ Conditional Statements. `if` and `else` -- they seem like gibberish, but we do this all the time. "If you we have any pasta, there's pesto in the freezer; or if you feel like making corn bread we could finish that chili. Othwerwise we should probably get takeout." We've set out some conditions:
+
+	if (we have pasta):
+		do this: (thaw the pesto);
+	else if (you feel like making cornbread):
+		do this: (make corn bread and heat up the chili)
+	else:
+		do this: (buy takeout)
+
+Because we have human brains, we can interpret statements like "there's pesto in the feezer" to mean "thaw the pesto, cook the pasta, toss it with the pesto and serve that for dinner. Please." So we get away with shorthand. So computers, they're the exasperating child who says "oh, you want me to cook pasta and thaw pesto and that will be dinner? You didn't actually say that." And then you're hungry and annoyed and everyone is having a blood sugar crisis. 
+
+Also because we have brains and some autonomy, we're likely to say "well, we do have pasta but I'd rather have cornbread, so I think I'll go for chili and cornbread." The computer, not so much. If there's pasta, our program stops right there and makes it. It only proceeds to the next choices if "we have pasta" is a false statement.
+
+So: going back to the shorthand, another core concept is functions. If you're going to do something more than once, you want to define a function for it. Our chili and cornbread function might look something like this:
+
+	def chili_and_cornbread() {
+		make cornbread;
+		heat chili;
+	}
+
+Which depends on a couple of other fuctions:
+
+	def cornbread {
+		preheat oven to 400°;
+		pan = oil a 9" round cake pan;
+		wet_ingredients = ["1 egg", "1/3 c oil", "1 c milk"];
+		dry_ingredients = ["1c corn meal", "1c flour","1/2 t salt","1T baking powder"];
+		if (southern == true) {
+			dry_ingredients.append["1/4 c sugar"]
+		}
+		mix dry_ingredients;
+		mix wet_ingredients;
+		batter = dry_ingredients + wet_ingredients;
+		pour batter into pan;
+		bake 30 min;
+	}
+
+And because our baking programming language has pre-defined routines for things like "mix" and "pour" and "bake" we don't have to define those. Or, we might need to add a line like `import baking` to pull in a library that defines those basic culinary processes. 
+		
+
+http://hyperpolyglot.org/scripting
+
+
+
+
+
+One good intro: 
+++ [Part 1](http://computationaltheory.tumblr.com/post/39873698957/the-building-blocks-of-code)
+++ [Part 2](http://computationaltheory.tumblr.com/post/40052373796/the-building-blocks-of-code-part-2)
+++ [A different list](http://www.gamasutra.com/blogs/AlexRose/20121120/181941/Making_Games_with_No_Previous_Experience__Part_1_Code.php)
 
     Conditionals (if, else, switch)
     Loops (for, while)
