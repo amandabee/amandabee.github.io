@@ -150,13 +150,9 @@ Which depends on a couple of other functions:
 	}
 
 And because our baking programming language has pre-defined routines for things like "mix" and "pour" and "bake" we don't have to define those. Or, we might need to add a line like `import baking` to pull in a library that defines those basic culinary processes. 
-		
-
 
 [One](http://computationaltheory.tumblr.com/post/39873698957/the-building-blocks-of-code),  [another](http://computationaltheory.tumblr.com/post/40052373796/the-building-blocks-of-code-part-2), [A different list](http://www.gamasutra.com/blogs/AlexRose/20121120/181941/Making_Games_with_No_Previous_Experience__Part_1_Code.php), [Concepts](http://holowczak.com/programming-concepts-tutorial-programmers/)
 
-One good intro: 
-
-+ 
+#Turn it to 11
 
 Further reading: [Life and Code's Greatest Hits](http://lifeandcode.tumblr.com/post/12205086953/life-and-codes-greatest-hits)
