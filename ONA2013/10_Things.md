@@ -1,4 +1,4 @@
-Lisa Williams and I are leading a workshop on [10 Things You Missed by not majoring in CS](http://ona13.journalists.org/sessions/10-things-you-missed-in-cs-school/) and these are my (very rough) notes follow. 
+Lisa Williams and I are leading a workshop on [10 Things You Missed by not majoring in CS](http://ona13.journalists.org/sessions/10-things-you-missed-in-cs-school/) and these are our notes. 
 
 # CS is not Software Engineering
 Computer Science is not software engineering, and it definitely isn't what most of you are trying to do. 
@@ -11,7 +11,9 @@ http://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/
 You'll notice that there is really only one thing on that list (Python) that anyone is talking about at ONA this week. CS programs don't teach R (though some statistics programs do) or Rails or GIS. I actually learned GIS working on a forestry research project. 
 
 #Programming is Frustrating
-Programming is incredibly frustrating. CS programs don't offer some kind of magic holy grail, what they teach is that...
+Programming is incredibly frustrating. All those languages you've never heard of? They're compiled languages. You write your code, run a compiler. It takes hours. And sometime in the middle of the night, it throws an error. And when you wake up in the morning you find out it didn't work. 
+
+CS programs don't offer some kind of magic holy grail, what they teach is that...
 
 #Errors make sense
 Errors make sense. When you run a program, and get an error, you look at the error and figure out what it means. When your Java program throws a 
@@ -26,17 +28,15 @@ http://xkcd.com/303/
 And sometimes after waiting all night for your program to compile, it just threw a bunch more errors.
 
 #Good Form Matters
-Compiled languages are not Interpreted languages
-As long as we're talking about compilers, I'm guessing some of you are secretly wondering what a compiler actually means. Those of you who aren't wondering are CS majors who just showed up to troll me anyhow, so zip it. 
+Compiled languages are not Interpreted languages. As long as we're talking about compilers, I'm guessing some of you are secretly wondering what a compiler actually means. Those of you who aren't wondering are CS majors who just showed up to troll me anyhow, so zip it. 
 
 Loosely, computer languages exist in two forms: compiled languages are languages that have to be translated into machine code by a compiler. You write your source code, and then compile it -- run a translator application that transforms your human readable source code into machine code. Interpreted languages don't have to be compiled. You can run the human readable source. 
 
-http://en.wikipedia.org/wiki/Compiled_language
-http://en.wikipedia.org/wiki/Interpreted_language
+If you really want to know the difference between a [compiled language](http://en.wikipedia.org/wiki/Compiled_language) and an [interpreted language](http://en.wikipedia.org/wiki/Interpreted_language) you could start reading, but I wouldn't actually start there. 
 
-If you think about the programs you use every day, stuff like your operating system or Firefox, that is all compiled software. I'm pretty sure Word is written in C++ You can't just go read the source code even if you want to. It is a useful thing to know, but you're not really going to write software in C++
+I thought I was going to say that compiled languages don't matter, but one thing you learn from them is good form. Really good form. C++ compilers care about indentation. C++ compilers know the difference between a tab and a space, so if you'd studied CS, you would have really good practice indenting code and you'd be very comfortable spotting inconsistencies in code. Mostly because you'd have a lot of practice. Lucky for us, you can get practice. Especially if you accept that tidiness matters. 
 
-I was going to say that compiled languages don't matter, but you would have learned very very good form. C++ compilers care about indentation. C++ compilers know the difference between a tab and a space, so if you'd studied CS, you would have really good practice indenting code and you'd be very comfortable spotting inconsistencies in code. Mostly because you'd have a lot of practice. Lucky for us, you can get practice. Especially if you accept that tidiness matters. 
+Look over the [Python coding standards](http://www.python.org/dev/peps/pep-0008/#indentation) and start at least indenting your code.  
 
 # Use Version Control
 Or at least comment your code
@@ -53,6 +53,8 @@ Collaboration, keeping track of what you changed and why you changed it.
 I can't tell you how many times I get messages like this from students: 
 
 	> Keep getting an error when I click on the link from the homework assignment page (here).
+
+or
 	
 	> I noticed the code for the interactive chart isn't working. I tried adding "http:" before the "//" (like we did in class), but no luck.
 
