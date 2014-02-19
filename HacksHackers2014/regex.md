@@ -18,6 +18,10 @@ It will shock you to learn that Wikipedia has an extensive and thorough history 
 
 The first awesome thing about regular expressions is that they're not actually regular. When you start getting fancy you'll start to discover that applications can vary subtly in their implementation. 
 
+Some important details: I actually spent about 20 minutes researching custom napkins before I remembered that I was supposed to be figuring out how to do a regular expressions workshop without a computer lab, not how to get napkins printed. I might start a kickstarter later. I'll keep you posted.
+
+But also, if you're coming to NICAR, I will be doing this again in a computer lab and I'll have an hour. So if you get a headache, that's cool. That means you should come to the workshop and we can all massage our temples together. 
+
 
 ### Get Started
 
@@ -53,7 +57,7 @@ So I want us to start by walking through how we can turn that into something clo
     Jordan Q. Zimmermann, SP, 26, 218, Auburndale, WI, 2300000 
 
 
-Start with the name:
+Start with the name. We're going to walk through this together and you should sketch out on a napkin how you think we can solve each piece of the puzzle. <http://rubular.com/r/OCClBeRKQi>
     
     NAME: \w*        # Not a bad start.
     NAME: \w* \w*    # Better, but check out Jordan Q. Zimmerman, Ross Detwiler-Smith
@@ -63,14 +67,14 @@ But we want to be able to make replacements, so we're going to start grouping th
     
     NAME: (\w*[-\w. ]*\w*) POS: 
     
-    NAME: (\w*[\w .]*\w*[ ]*) POS: ([A-Z][A-Z]) 
-    NAME: (\w*[\w .]*\w*[ ]*) POS: ([A-Z]{2}) 
+    NAME: (\w*[-\w .]*\w*[ ]*) POS: ([A-Z][A-Z]) 
+    NAME: (\w*[-\w .]*\w*[ ]*) POS: ([A-Z]{2}) 
     
-    NAME: (\w*[\w .]*\w*[ ]*) POS: ([A-Z]{2}) AGE: (\d\d) WT: (\d{3}) BORN: .* SALARY: (\d+|N\/A) 
+    NAME: (\w*[-\w .]*\w*[ ]*) POS: ([A-Z]{2}) AGE: (\d\d) WT: (\d{3}) BORN: .* SALARY: (\d+|N\/A) 
     
-Unpack the SALARY "or" statement: \d* will match 0 or more and stop. We want 1 or more. This is why I like Rubular, it shows you your matches. 
+Unpack the SALARY "or" statement: \d* will match 0 or more and stop. We want 1 or more. This is why I like Rubular, it shows you your matches. <http://rubular.com/r/lmLv0Igsdo>
 
-But now is a good time to take this over to [Regex101](http://regex101.com/)
+But now is a good time to take this over to [Regex101](http://regex101.com/) to see it all colorized http://regex101.com/r/vS5eT3
     
     
 

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--This file was converted to xhtml by LibreOffice - see http://cgit.freedesktop.org/libreoffice/core/tree/filter/source/xslt for the code.-->
+<head profile="http://dublincore.org/documents/dcmi-terms/">
+  <meta name="generator" content=
+  "HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" />
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=us-ascii" />
+  <title xml:lang="en-US" lang="en-US">- no title specified</title>
+  <meta name="DCTERMS.title" content="" xml:lang="en-US" lang="en-US" />
+  <meta name="DCTERMS.language" content="en-US" scheme="DCTERMS.RFC4646" />
+  <meta name="DCTERMS.source" content="http://xml.openoffice.org/odf2xhtml" />
+  <meta name="DCTERMS.creator" content="Amanda" />
+  <meta name="DCTERMS.issued" content="2014-02-18T16:08:28.697411053" scheme=
+  "DCTERMS.W3CDTF" />
+  <meta name="DCTERMS.modified" content="2014-02-19T15:20:36.351051000" scheme=
+  "DCTERMS.W3CDTF" />
+  <meta name="DCTERMS.provenance" content="" xml:lang="en-US" lang="en-US" />
+  <meta name="DCTERMS.subject" content="," xml:lang="en-US" lang="en-US" />
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" hreflang="en" />
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" hreflang="en" />
+  <link rel="schema.DCTYPE" href="http://purl.org/dc/dcmitype/" hreflang="en" />
+  <link rel="schema.DCAM" href="http://purl.org/dc/dcam/" hreflang="en" />
+  <style type="text/css">
+/*<![CDATA[*/
+  body.c6 {max-width:11in;margin-top:0.5in; margin-bottom:0.5in; margin-left:0.5in; margin-right:0.5598in; writing-mode:lr-tb;}
+  td.c5 {text-align:left;width:3.3785in;}
+  td.c4 {text-align:left;width:1.6215in;}
+  td.c3 {text-align:left;width:1.5049in;}
+  td.c2 {text-align:left;width:3.4368in;}
+  td.c1 {text-align:left;width:1.5632in;}
+  /*]]>*/
+  </style>
+</head>
+<body dir="ltr" class="c6">
+  <table border="0" cellspacing="0" cellpadding="0" class="napkin">
+    <colgroup>
+      <col width="174" />
+      <col width="381" />
+      <col width="167" />
+      <col width="381" />
+    </colgroup>
+    <tr>
+      <td><p>[abc]</p></td>
+      <td><p>A single character of: a, b, or c</p></td>
+      <td><p>^</p></td>
+      <td><p>Start of line</p></td>
+    </tr>
+    <tr>
+      <td><p>[^abc]</p></td>
+      <td><p>Any single character except: a, b, or c</p></td>
+      <td><p>$</p></td>
+      <td><p>End of line</p></td>
+    </tr>
+    <tr>
+      <td><p>[a-z]</p></td>
+      <td><p>Any single character in the range a-z</p></td>
+      <td><p>\A</p></td>
+      <td><p>Start of string</p></td>
+    </tr>
+    <tr>
+      <td><p>[a-zA-Z]</p></td>
+      <td><p>Any single char in the range a-z or A-Z</p></td>
+      <td><p>\z</p></td>
+      <td><p>End of string</p></td>
+    </tr>
+    <tr>
+      <td><p>(...)</p></td>
+      <td><p>Capture everything enclosed</p></td>
+      <td><p>.</p></td>
+      <td><p>Any single character</p></td>
+    </tr>
+    <tr>
+      <td><p>(a|b)</p></td>
+      <td><p>a or b</p></td>
+      <td><p>\s</p></td>
+      <td><p>Any whitespace character</p></td>
+    </tr>
+    <tr>
+      <td><p>a?</p></td>
+      <td><p>Zero or one of a (lazy)</p></td>
+      <td><p>\S</p></td>
+      <td><p>Any non-whitespace character</p></td>
+    </tr>
+    <tr>
+      <td><p>a*</p></td>
+      <td><p>Zero or more of a (greedy)</p></td>
+      <td><p>\d</p></td>
+      <td><p>Any digit</p></td>
+    </tr>
+    <tr>
+      <td><p>a+</p></td>
+      <td><p>One or more of a</p></td>
+      <td><p>\D</p></td>
+      <td><p>Any non-digit</p></td>
+    </tr>
+    <tr>
+      <td><p>a{3}</p></td>
+      <td><p>Exactly 3 of a</p></td>
+      <td><p>\w</p></td>
+      <td><p>Any word character (letter, number, underscore)</p></td>
+    </tr>
+    <tr>
+      <td><p>a{3,}</p></td>
+      <td><p>3 or more of a</p></td>
+      <td><p>\W</p></td>
+      <td><p>Any non-word character</p></td>
+    </tr>
+    <tr>
+      <td><p>a{3,6}</p></td>
+      <td><p>Between 3 and 6 of a</p></td>
+      <td><p>\b</p></td>
+      <td><p>Any word boundary</p></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>options: <code>i</code>
+  case insensitive <code>m</code>
+  make dot match newlines</p>
+  <p><code>x</code> ignore
+  whitespace in regex <code>o</code> perform #{...} substitutions only once</p>
+</body>
+</html>
