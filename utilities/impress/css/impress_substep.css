@@ -1,0 +1,38 @@
+ .substep {
+          -webkit-transition: opacity 1s;
+          -moz-transition:    opacity 1s;
+          -ms-transition:     opacity 1s;
+          -o-transition:      opacity 1s;
+          transition:         opacity 1s;
+        }
+        
+        
+body {
+  -webkit-transition: background 0;
+  -moz-transition:    background 0;
+  -ms-transition:     background 0;
+  -o-transition:      background 0;
+  transition:         background 0;
+}
+
+.substep {
+  opacity: 0;
+}
+
+/* override for animated substeps */
+.substep.anim {
+  opacity: 1;
+}
+
+.substep.active {
+  opacity: 1;
+}
+
+
+svg .substep.previous {
+  opacity: 1; 
+}
+
+.substep.previous {
+  opacity: 0.75;
+}
