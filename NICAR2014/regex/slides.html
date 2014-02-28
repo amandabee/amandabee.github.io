@@ -5,18 +5,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Designing a Data Journalism Course | NICAR 2014 | Amanda Hickman @amandabee</title>
+    <title>Regular Expressions | NICAR 2014 | Amanda Hickman @amandabee</title>
     
     <meta name="description" content="Course Design" />
     <meta name="author" content="Amanda Hickman" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     <link href="/talks/utilities/impress/css/impress-demo.css" rel="stylesheet" />
+    <link href="/talks/utilities/impress/css/impress_substep.css" rel="stylesheet" />
     <style type="text/css">
     	td p {font-size: 18px;}
     	pre {font-size: 32px; font-family: monospaced}
     	.light {color: #AAA; font-style: italic;}
     	h2 { color:  rgb(13, 54, 146); font-weight: 600; }
+       
 //<!-- CUNY Blue: 13, 54, 146 
 //     CUNY Orange: 255, 141, 19
 //     -->
@@ -43,6 +45,7 @@
             <img src="../cuny_square_RGB_orange.jpg" alt="CUNY logo" style="float: left; padding: 0 15px 0 0;" />
             <h2>@amandabee</h2>    
             <h3>@cunyjschool</h3>
+            <a href="http://xkcd.com/208/"><img src="xkcd_regular_expressions.png" alt="XKCD on Regex" /></a><!-- https://xkcd.com/1313/ or https://xkcd.com/208/ -->
         </q>
     </div>
     <div id="napkin" class="step slide" data-x="1800" data-y="-1800">
@@ -146,15 +149,15 @@
     </div>
     <div class="step slide" data-x="3000" data-y="-1800">
     
-        <center><q>Jim[my]{0,2}\s</q></center>
+        <center><q>Jim<span class="substep">[my]</span><span class="substep">{0,2</span><span class="substep">}\s</span></q></center>
         <h1>&nbsp;</h1>
         <h1>&nbsp;</h1>
         <b>Strings</b> just means a bunch of characters strung together; <b>Characters</b> are just letters and numbers and curly braces and plus signs. 
         
     </div>
 
-    <div id="Nationals" class="step slide" data-x="-600" data-y="-600">
-    <pre>NAME: Sean Burnett POS: RP AGE: 30 WT: 200 BORN: Dunedin, FL SALARY: 2350000
+    <div id="Nationals" class="step" data-x="-600" data-y="-1000" data-scale="1">
+    <pre style="float:right;padding: 50px; ">NAME: Sean Burnett POS: RP AGE: 30 WT: 200 BORN: Dunedin, FL SALARY: 2350000
 NAME: Tyler Clippard POS: RP AGE: 27 WT: 200 BORN: Lexington, KY SALARY: 1650000
 NAME: Ross Detwiler-Smith POS: SP AGE: 26 WT: 174 BORN: St. Louis, MO SALARY: 485000
 NAME: Christian Garcia POS: RP AGE: 27 WT: 215 BORN: Miami, FL SALARY: N/A
@@ -165,7 +168,7 @@ NAME: Craig Stammen POS: RP AGE: 28 WT: 200 BORN: Coldwater, OH SALARY: 485000
 NAME: Drew Storen POS: RP AGE: 25 WT: 180 BORN: Indianapolis, IN SALARY: 498750
 NAME: Jordan Q. Zimmermann POS: SP AGE: 26 WT: 218 BORN: Auburndale, WI SALARY: 2300000</pre>    	
     </div>
-    <div  class="step slide" data-x="600" data-y="-600">
+    <div  class="step slide" data-x="600" data-y="-1000">
 <pre>Sean Burnett, RP, 30, 200, Dunedin, FL, 2350000
 Tyler Clippard, RP, 27, 200, Lexington, KY, 1650000
 Ross Detwiler-Smith, SP, 26, 174, St. Louis, MO, 485000
@@ -176,8 +179,19 @@ Ryan P. Mattheus, RP, 28, 215, Sacramento, CA, 481000
 Craig Stammen, RP, 28, 200, Coldwater, OH, 485000
 Drew Storen, RP, 25, 180, Indianapolis, IN, 498750
 Jordan Q. Zimmermann, SP, 26, 218, Auburndale, WI, 2300000</pre>
-    </div> 
-    <div  class="step slide" data-x="-600" data-y="0">     
+    </div>
+    <div  class="step slide" data-x="1800" data-y="-1000">
+    <p>NAME: Sean Burnett POS: RP AGE: 30 WT: 200 BORN: Dunedin, FL SALARY: 2350000<br />
+NAME: Tyler Clippard POS: RP AGE: 27 WT: 200 BORN: Lexington, KY SALARY: 1650000</p
+    <p>&nbsp;</p>
+    <p class="substep"><a href="http://rubular.com">Rubular</a> and <a href="http://regex101.com">RegEx 101</a></p>
+    <p>&nbsp;</p>
+    
+    <p><span class="substep">NAME: </span><span class="substep">\w*</span><span class="substep"> \w*</span></p>
+    
+    </div>
+    
+    <div  class="step slide" data-x="-600" data-y="-200">     
     	<pre>310-808-5243
 (415) 846-1688
 (720) 318-9049
@@ -195,6 +209,19 @@ Jordan Q. Zimmermann, SP, 26, 218, Auburndale, WI, 2300000</pre>
     </div>
     <div  class="step slide" data-x="600" data-y="1400">     
     </div>
+    <div class="step slide" data-x="-600" data-y="2000">
+        <a href="http://xkcd.com/1171/"><img src="http://imgs.xkcd.com/comics/perl_problems.png" alt="XKCD on Regex" /></a><!-- https://xkcd.com/1313/ or https://xkcd.com/208/ -->
+		<ul>
+		    <li>Zed Shaw's <a href="http://regex.learncodethehardway.org/">Learn Regex The Hard Way</a> will make you an expert.</li><br />
+
+		    <li>Dan Nguyen's <a href="https://leanpub.com/bastards-regexes">The Bastards Book of Regular Expressions</a> is probably also awesome.</li><br />
+
+		    <li>If you're already pretty good at regular expressions, check out the <a href="http://callumacrae.github.io/regex-tuesday/">Tuesday Challenge</a> or <a href="https://www.hackerrank.com/categories/miscellaneous/regex">Hacker Rank's Challenges</a>. The <a href="http://regexcrossword.com/">RegEx Crosswords</a> are fun, if cryptic.</li><br />
+
+		    <li><a href="http://www.rexegg.com/regex-lookarounds.html">Lookaheads</a> will make your brain hurt a little, but that doesn't mean they aren't worth understanding.</li>
+        </ul>
+    
+    </div>
     <div id="overview" class="step slide"  data-scale="6"> </div>
 
 </div>
@@ -208,8 +235,21 @@ if ("ontouchstart" in document.documentElement) {
 }
 </script>
 
-<script src="/talks/utilities/impress/js/impress.js"></script>
+<script src="/talks/utilities/impress/js/impress_substep.js"></script>
 <script>impress().init();</script>
+
+<script>
+	document.addEventListener("impress:substepactive", function(e) {
+		if (e.srcElement.classList.contains("downit")) {
+		    e.srcElement.classList.add("down");
+		    e.srcElement.classList.remove("downit");
+		} else
+		if (e.srcElement.classList.contains("down")) {
+		    e.srcElement.classList.add("downit");
+		    e.srcElement.classList.remove("down");
+		}
+	});
+</script>
 
 </body>
 </html>
