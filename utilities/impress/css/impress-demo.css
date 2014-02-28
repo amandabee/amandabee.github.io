@@ -21,26 +21,11 @@
 
 
 /*
-    We start with a good ol' reset.
-    That's the one by Eric Meyer http://meyerweb.com/eric/tools/css/reset/
-
-    You can probably argue if it is needed here, or not, but for sure it
-    doesn't do any harm and gives us a fresh start.
+   Via Eric Meyer http://meyerweb.com/eric/tools/css/reset/
+   Reset everything. Not sure we need this. 
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -50,8 +35,7 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
@@ -63,8 +47,7 @@ ol, ul {
 blockquote, q {
     quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
@@ -83,8 +66,7 @@ table {
 */
 body {
     font-family: 'PT Sans', sans-serif;
-    min-height: 740px;
-
+    min-height: 740px; 
     background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
@@ -118,8 +100,7 @@ a {
     transition:         0.5s;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     background: rgba(255,255,255,1);
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
@@ -158,14 +139,13 @@ a:focus {
 }
 
 /*
-    Now let's style the presentation steps.
-
+    Now let's style the presentation steps.  
     We start with basics to make sure it displays correctly in everywhere ...
 */
 
 .step {
     position: relative;
-    width: 900px;
+    width: 1000px;
     padding: 40px;
     margin: 20px auto;
 
