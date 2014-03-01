@@ -2,17 +2,13 @@
 
 I am a lecturer at CUNY's Graduate School of Journalism where I teach classes on data visualization and newsgames and sometimes plain old reporting. 
 
-I've also been worming my way earlier in the curriculum, so my colleageu Ben Lesser and I now do an extended "Got Numbers" workshop with every first semester Craft class, and everyone does a little bit of spreadsheet work and mapping in Fundamentals of Multimedia. 
+## So ..okay. Regular Expressions. 
 
-Newsgames is a five week module that starts with downloading a git repository (we don't actually clone it), editing a .csv, and deploying to a web server. The game, Steve Melendez's Bingo Card generator, isn't really the point. The point is that by the end of week one "Just grab the repo" is an instruction that has meaning, though we also talk about how to write for something like this, how to be clean and consistent and use a single voice across each entry. 
+Regular expressions are statements that you make in a pattern matching language.
 
-Then we all build a quiz using Mother Jones' script and from there we dive into [Twine](http://twinery.org/), a tool that lets you incorporate scoring and logic into a choose your own adventure game. Last fall, we came up with a "spend a week homeless" game and another that trailed a disabled veteran. 
+I can search for all the instances of "regular expressions" and replace them with "regex" without doing anything fancy. But if I want to find all the isntances of "Jim" and "Jimmy" and change them to "James", I need something a little more complex. 
 
-What we're doing is just storytelling.
-
-## So ..okay. Regular Expressions. On a Napkin.
-
-I spent a good 15 minutes looking at sites where you can print cocktail napkins. And about 60 seconds contemplating a Kickstarter campaign to produce customized regex napkins, but I didn't. Maybe we can work on that later. 
+Two terms you're going to hear: "strings" just means a bunch of characters strung together. Letters are characters, numbers are characters. Curly braces and plus signs are characters. 
 
 ### RegEx
 
@@ -23,31 +19,65 @@ The first awesome thing about regular expressions is that they're not actually r
 
 ### Get Started
 
-I like to start with a manageable block of text, one where you can *see* what you're up against just fine. 
-
 We're going to use two tools:
 
 [Rubular](http://rubular.com/) and [RegEx 101](http://regex101.com/) to work through our puzzles today. 
 
-That is player data from the Washington Nationals 2012 lineup that I stole from [Anthoney DeBarros](http://www.anthonydebarros.com/2012/10/09/excel-extract-text-find-mid-string/) who uses it to demonstrate some cool Excel functions, which will also work if you want to break this all up. I sometimes think it wouldn't kill me to get more current data, but I haven't gotten there yet.
+I like to start with a manageable block of text, one where you can *see* what you're up against just fine. 
 
+    NAME: Sean Burnett POS: RP AGE: 30 WT: 200 BORN: Dunedin, FL SALARY: 2350000
+    NAME: Tyler Clippard POS: RP AGE: 27 WT: 200 BORN: Lexington, KY SALARY: 1650000
+    NAME: Ross Detwiler-Smith POS: SP AGE: 26 WT: 174 BORN: St. Louis, MO SALARY: 485000
+    NAME: Christian Garcia POS: RP AGE: 27 WT: 215 BORN: Miami, FL SALARY: N/A
+    NAME: Gio Gonzalez POS: SP AGE: 27 WT: 205 BORN: Hialeah, FL SALARY: 3335000
+    NAME: Mike Gonzalez POS: RP AGE: 34 WT: 215 BORN: Robstown, TX SALARY: N/A
+    NAME: Ryan P. Mattheus POS: RP AGE: 28 WT: 215 BORN: Sacramento, CA SALARY: 481000
+    NAME: Craig Stammen POS: RP AGE: 28 WT: 200 BORN: Coldwater, OH SALARY: 485000
+    NAME: Drew Storen POS: RP AGE: 25 WT: 180 BORN: Indianapolis, IN SALARY: 498750
+    NAME: Jordan Q. Zimmermann POS: SP AGE: 26 WT: 218 BORN: Auburndale, WI SALARY: 2300000 
+
+
+That is player data from the Washington Nationals 2012 lineup that I stole from [Anthoney DeBarros](http://www.anthonydebarros.com/2012/10/09/excel-extract-text-find-mid-string/) who uses it to demonstrate some cool Excel functions, which will also work if you want to break this all up. I sometimes think it wouldn't kill me to get more current data, but I haven't yet. I did alter it subtly to make our challenge more fun. 
+
+Let's say, hypothetically, that I want to put this in a spreadsheet. And I want all the data in columns. I can't just use `text to columns` because there's no delimiter.
+
+So I want us to start by walking through how we can turn that into something closer to...
+
+    Sean Burnett, RP, 30, 200, Dunedin, FL, 2350000
+    Tyler Clippard, RP, 27, 200, Lexington, KY, 1650000
+    Ross Detwiler-Smith, SP, 26, 174, St. Louis, MO, 485000
+    Christian Garcia, RP, 27, 215, Miami, FL, N/A
+    Gio Gonzalez, SP, 27, 205, Hialeah, FL, 3335000
+    Mike Gonzalez, RP, 34, 215, Robstown, TX, N/A
+    Ryan P. Mattheus, RP, 28, 215, Sacramento, CA, 481000
+    Craig Stammen, RP, 28, 200, Coldwater, OH, 485000
+    Drew Storen, RP, 25, 180, Indianapolis, IN, 498750
+    Jordan Q. Zimmermann, SP, 26, 218, Auburndale, WI, 2300000 
+
+
+Start with the name. We're going to walk through this together and you should sketch out on a napkin how you think we can solve each piece of the puzzle. <http://rubular.com/r/OCClBeRKQi>
+    
+    NAME: \w*        # Not a bad start.
+    NAME: \w* \w*    # Better, but check out Jordan Q. Zimmerman, Ross Detwiler-Smith
+    NAME: \w*[-\w. ]*\w* # Now we have everyone.
+
+But we want to be able to make replacements, so we're going to start grouping the good stuff: 
+    
+    NAME: (\w*[-\w. ]*\w*) POS: 
+    
+    NAME: (\w*[-\w .]*\w*[ ]*) POS: ([A-Z][A-Z]) 
+    NAME: (\w*[-\w .]*\w*[ ]*) POS: ([A-Z]{2}) 
+    
+    NAME: (\w*[-\w .]*\w*[ ]*) POS: ([A-Z]{2}) AGE: (\d\d) WT: (\d{3}) BORN: .* SALARY: (\d+|N\/A) 
+    
+Unpack the SALARY "or" statement: \d* will match 0 or more and stop. We want 1 or more. This is why I like Rubular, it shows you your matches. <http://rubular.com/r/lmLv0Igsdo>
+
+But now is a good time to take this over to [Regex101](http://regex101.com/) to see it all colorized http://regex101.com/r/vS5eT3
+    
+    
+
+### More Challenges
 Convert dates from 1/12/99 to 1999-12-01; find proper nouns and large currency amounts in a giant blob of text
-
-
-► Regular expressions, or “regex”, are like find and replace on speed. Instead of searching for particular text strings (like “V6C”) regular expressions are used to look for particular patterns (i.e. a letter followed by a number followed by a letter). They can be very helpful when you’re trying to clean up a really dirty dataset and typical techniques, like text-to-columns, aren’t working.  <https://leanpub.com/bastards-regexes> The Bastards Book of Regular Expressions, an ebook by Dan Nguyen, and  <http://regular-expressions.info/> regular-expressions.info are two great places to start. You can text out your regex patterns at  <http://rubular.com/> rubular.com.
-
-
-
-Here's that thing I mentioned. I scraped the .txt version of pdfs in doc
-cloud for different combinations of regex's to find the detainee's transfer
-in dates. I used that to calculate running totals for that background
-population chart.
-
-http://america.aljazeera.com/articles/multimedia/guantanamo-hungerstriketimeline.html
-
-### Greed.
-> ...playlist index:109 id:38522 title:Christmas in Heaven artist:B.B. King album:A Christmas Celebration of Hope playlist index:110 id:38523 title:I'll Be Home for Christmas artist:B.B. King album:A Christmas Celebration of Hope playlist index:111 id:38524 title:To Someone That I Love artist:B.B. King album:A Christmas Celebration of Hope playlist index:112 id:38525 title:Christmas Celebration artist:B.B. King album:A Christmas Celebration of Hope playlist index:113 id:38526 title:Merry Christmas, Baby artist:B.B. King album:A Christmas Celebration of Hope
-
 
 ## Tools
 If you're already pretty good at regular expressions, check out the [Tuesday Challenge](http://callumacrae.github.io/regex-tuesday/) or [Hacker Rank's Challenges](https://www.hackerrank.com/categories/miscellaneous/regex).
