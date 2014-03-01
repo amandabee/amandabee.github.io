@@ -12,6 +12,7 @@
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     <link href="/talks/utilities/impress/css/impress-demo.css" rel="stylesheet" />
+    <link href="/talks/utilities/impress/css/impress_substep.css" rel="stylesheet" />
     <style type="text/css">
     	td p {font-size: 18px;}
     	pre {font-size: 32px; font-family: monospaced}
@@ -30,60 +31,65 @@
 </div>
 <div id="impress">
 
-    <div id="Intro" class="step slide" data-x="600" data-y="-1800">
-    <q>
-    <img src="../cuny_square_RGB_orange.jpg" alt="CUNY logo" style="float: left; padding: 0 15px 0 0;" />
-    <h2>Amanda Hickman</h2>    
-    <h3>CUNY Graduate School of Journalism</h3></q>
-    
+    <div id="Intro" class="step slide" data-x="-1400" data-y="-1300">
+        <q><img src="../cuny_square_RGB_orange.jpg" alt="CUNY logo" style="float: left; padding: 0 15px 0 0;" />
+        <h2>Amanda Hickman</h2>    
+        <h3>CUNY Graduate School of Journalism</h3></q>
     </div>
-    <div id="Nutshell" class="step slide" data-x="600" data-y="-1000">
+    <div id="Nutshell" class="step slide" data-x="-400" data-y="-1300">
 	    <q>
-    <img src="../cuny_square_RGB_orange.jpg" alt="CUNY logo" style="float: left; padding: 0 15px 0 0;" />
-    <h2>@amandabee</h2>    
-    <h3>@cunyjschool</h3></q>
+        <img src="../cuny_square_RGB_orange.jpg" alt="CUNY logo" style="float: left; padding: 0 15px 0 0;" />
+        <h2>@amandabee</h2>    
+        <h3>@cunyjschool</h3></q>
     </div>
-    <div id="Spring2012" class="step slide" data-x="600" data-y="-200">
+    <div id="Spring2012" class="step slide" data-x="600" data-y="-1300">
     	<h2>Spring 2012</h2>
-	<ul>
-	    <li> + Storytelling with Data</li>
+	    <ul>
+	        <li> + Storytelling with Data</li>
     	</ul>
     </div>
-
-    <div id="Fall2012" class="step slide" data-x="-600" data-y="600">
+    <div id="Fall2012" class="step slide" data-x="1600" data-y="-1300">
     	<h2>Fall 2012</h2>
-	<ul>
-	    <li> + Storytelling with Data</li>
-	    <li> + Fundamentals of Interactive</li>
+	    <ul>
+	        <li> + Storytelling with Data</li>
+	        <li> + Fundamentals of Interactive</li>
     	</ul>
-    </div>
-    <div id="Spring2013" class="step slide" data-x="600" data-y="600">
-    	<h2>Spring 2013</h2>
-	<ul>
-	    <li> + Storytelling with Data</li>
-	    <li><span class="light"> + Fundamentals of Interactive</span></li>
-	    <li> + Subject Concentration Requirements</li>
-    	</ul>
+    	<span class="substep">
+        	<h2>Spring 2013</h2>
+	        <ul>
+	            <li> + Storytelling with Data (aka "data viz" or #cunyjdata)</li>
+	            <li> + Subject Concentration Courses add data requirements</li>
+        	</ul>
+    	</span>
     </div> 
-    <div id="Fall2013" class="step slide" data-x="-600" data-y="1400">     
+    <div id="Fall2013" class="step slide" data-x="2600" data-y="-1300">     
     	<h2>Fall 2013</h2>
-	<ul>
-	    <li> + Storytelling with Data</li>
-	    <li> + Fundamentals of Interactive</li>
-	    <li> + Craft of Reporting (Writing About Numbers)</li>
-	    <li> + Newsgames</li>
+	    <ul>
+	        <li> + Storytelling with Data</li>
+	        <li> + Fundamentals of Interactive</li>
+	        <li> + Craft I (Writing About Numbers)</li>
+	        <li> + Newsgames</li>
     	</ul>
-    </div>
-    <div id="Spring2014" class="step slide" data-x="600" data-y="1400">     
+    	
+    	<span class="substep">
     	<h2>Spring 2014</h2>
-	<ul>
-	    <li> + Storytelling with Data</li>
-	    <li><span class="light"> + Fundamentals of Interactive</span></li>
-	    <li> + Craft of Reporting (Manual, Quizzes)</li>
-	    <li> + Faculty Workshops</li>
-	    <li><span class="light"> + Newsgames</span></li>
+	    <ul>
+	        <li> + Storytelling with Data</li>
+	        <li> + Craft II (Manual, Quizzes)</li>
+	        <li> + Faculty Workshops</li>
     	</ul>
+    	</span>
     </div>
+    
+    <div id="StudentWork" class="step" data-scale="4" data-x="0" data-y="1000">
+        <a href="http://www.bkbureau.org/2013/12/12/how-vito-lopez-changed-bushwick/" target="new"><img src="toby_salinger.png" alt="screenshot from City Limits"/></a>
+    </div>
+   
+    
+    <div id="CUNY" class="step" data-scale="4" data-x="0" data-y="4500">
+        <img src="SoJhome.png" alt="CUNY Graduate School of Journalism homepage"/>
+    </div>
+    
     <div id="overview" class="step slide"  data-scale="6"> </div>
 
 </div>
@@ -97,8 +103,21 @@ if ("ontouchstart" in document.documentElement) {
 }
 </script>
 
-<script src="/talks/utilities/impress/js/impress.js"></script>
+<script src="/talks/utilities/impress/js/impress_substep.js"></script>
 <script>impress().init();</script>
+
+<script>
+	document.addEventListener("impress:substepactive", function(e) {
+		if (e.srcElement.classList.contains("downit")) {
+		    e.srcElement.classList.add("down");
+		    e.srcElement.classList.remove("downit");
+		} else
+		if (e.srcElement.classList.contains("down")) {
+		    e.srcElement.classList.add("downit");
+		    e.srcElement.classList.remove("down");
+		}
+	});
+</script>
 
 </body>
 </html>
