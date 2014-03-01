@@ -1,21 +1,20 @@
 # RegEx Handout
 
 ## Text Block 1:
-[2012 Nationals Lineup, Sort Of](https://gitorious.org/talks-and-teaching/talks/raw/a64f5d1e465fa1e35d418a7f76da74278682ea32:NICAR2014/regex/sample%20files/Sample%20Text%202012%20Nationals.txt)  
+[2012 Nationals Lineup, Sort Of](https://gitorious.org/talks-and-teaching/talks/raw/a64f5d1e465fa1e35d418a7f76da74278682ea32:NICAR2014/regex/sample%20files/Sample%20Text%202012%20Nationals.txt) | 
+<http://rubular.com/r/NddU4mCdk0>   
 **Search String:**
 `NAME: ([-\.\w ]*)POS: ([A-Z]{2}) AGE: (\d+) WT: (\d+) BORN: ([\w. ]+), ([A-Z]{2}) SALARY: (\d+|N\/A)`  
-<http://rubular.com/r/NddU4mCdk0>
 
 ## Text Block 2:
-[A Bunch of Random Phone Numbers](https://gitorious.org/talks-and-teaching/talks/raw/a64f5d1e465fa1e35d418a7f76da74278682ea32:NICAR2014/regex/sample%20files/Sample%20Text%20Phone%20Numbers.txt)  
-**Search String**
+[A Bunch of Random Phone Numbers](https://gitorious.org/talks-and-teaching/talks/raw/a64f5d1e465fa1e35d418a7f76da74278682ea32:NICAR2014/regex/sample%20files/Sample%20Text%20Phone%20Numbers.txt) | <http://regex101.com/r/mB1bF0>
+**Search String**   
 `([0-9]{3})[-. )\/]*([0-9]{3})\D*([0-9]{4})`  
 **Better Search String**
 `\(*([0-9]{3})\D*([0-9]{3})\D*([0-9]{4})`  
 **Replace String**
 `\(\1\) \2-\3`  
 
-<http://regex101.com/r/mB1bF0>
 
 ##Very Useful Links
 <http://rubular.com/> and <http://regex101.com>
