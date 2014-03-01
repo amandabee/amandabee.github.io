@@ -145,7 +145,7 @@ a:hover, a:focus {
 
 .step {
     position: relative;
-    width: 1000px;
+    width: 1400px;
     padding: 40px;
     margin: 20px auto;
 
@@ -189,7 +189,7 @@ a:hover, a:focus {
 .slide {
     display: block;
 
-    width: 900px;
+    width: 1000px;
     height: 700px;
     padding: 40px 60px;
 

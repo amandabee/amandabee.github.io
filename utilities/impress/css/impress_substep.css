@@ -1,10 +1,10 @@
- .substep {
-          -webkit-transition: opacity 1s;
-          -moz-transition:    opacity 1s;
-          -ms-transition:     opacity 1s;
-          -o-transition:      opacity 1s;
-          transition:         opacity 1s;
-        }
+.substep {
+      -webkit-transition: opacity 1s;
+      -moz-transition:    opacity 1s;
+      -ms-transition:     opacity 1s;
+      -o-transition:      opacity 1s;
+      transition:         opacity 1s;
+    }
         
         
 body {

@@ -32,7 +32,7 @@
 </div>
 <div id="impress">
 
-    <div id="Intro" class="step" data-x="-600" data-y="-1800">
+    <div id="Intro" class="step slide" data-x="-600" data-y="-1800">
         <q>
             <h1>Regular Expressions</h1>
             <img src="../cuny_square_RGB_orange.jpg" alt="CUNY logo" style="float: left; padding: 0 15px 0 0;" />
@@ -146,18 +146,21 @@
 	      make dot match newlines; <code>x</code> ignore
 	      whitespace in regex; <code>o</code> perform #{...} substitutions only once</p></td></tr>
       </table>
+       <p><b>Strings</b> just means a bunch of characters strung together; <b>Characters</b> are just letters and numbers and curly braces and plus signs. </p>
+       
     </div>
     <div class="step slide" data-x="3000" data-y="-1800">
-    
-        <center><q>Jim<span class="substep">[my]</span><span class="substep">{0,2</span><span class="substep">}\s</span></q></center>
-        <h1>&nbsp;</h1>
-        <h1>&nbsp;</h1>
-        <b>Strings</b> just means a bunch of characters strung together; <b>Characters</b> are just letters and numbers and curly braces and plus signs. 
+        <p>James, Jim, Jimmy ...</p>
+        <center><q>Jim<span class="substep">[my]</span>
+        <span class="substep">{0,2}</span>
+        <span class="substep"></span></center></q>
+        <span class="substep">Jimy, Jimm, Jimmm, Jimym
+        
         
     </div>
 
-    <div id="Nationals" class="step" data-x="-600" data-y="-1000" data-scale="1">
-    <pre style="float:right;padding: 50px; ">NAME: Sean Burnett POS: RP AGE: 30 WT: 200 BORN: Dunedin, FL SALARY: 2350000
+    <div id="Nationals" class="wide step" data-x="-800" data-y="-1000" data-scale="1">
+    <pre>NAME: Sean Burnett POS: RP AGE: 30 WT: 200 BORN: Dunedin, FL SALARY: 2350000
 NAME: Tyler Clippard POS: RP AGE: 27 WT: 200 BORN: Lexington, KY SALARY: 1650000
 NAME: Ross Detwiler-Smith POS: SP AGE: 26 WT: 174 BORN: St. Louis, MO SALARY: 485000
 NAME: Christian Garcia POS: RP AGE: 27 WT: 215 BORN: Miami, FL SALARY: N/A
@@ -168,7 +171,7 @@ NAME: Craig Stammen POS: RP AGE: 28 WT: 200 BORN: Coldwater, OH SALARY: 485000
 NAME: Drew Storen POS: RP AGE: 25 WT: 180 BORN: Indianapolis, IN SALARY: 498750
 NAME: Jordan Q. Zimmermann POS: SP AGE: 26 WT: 218 BORN: Auburndale, WI SALARY: 2300000</pre>    	
     </div>
-    <div  class="step slide" data-x="600" data-y="-1000">
+    <div  class="step slide" data-x="800" data-y="-1000">
 <pre>Sean Burnett, RP, 30, 200, Dunedin, FL, 2350000
 Tyler Clippard, RP, 27, 200, Lexington, KY, 1650000
 Ross Detwiler-Smith, SP, 26, 174, St. Louis, MO, 485000
@@ -180,18 +183,20 @@ Craig Stammen, RP, 28, 200, Coldwater, OH, 485000
 Drew Storen, RP, 25, 180, Indianapolis, IN, 498750
 Jordan Q. Zimmermann, SP, 26, 218, Auburndale, WI, 2300000</pre>
     </div>
-    <div  class="step slide" data-x="1800" data-y="-1000">
-    <p>NAME: Sean Burnett POS: RP AGE: 30 WT: 200 BORN: Dunedin, FL SALARY: 2350000<br />
-NAME: Tyler Clippard POS: RP AGE: 27 WT: 200 BORN: Lexington, KY SALARY: 1650000</p
-    <p>&nbsp;</p>
-    <p class="substep"><a href="http://rubular.com">Rubular</a> and <a href="http://regex101.com">RegEx 101</a></p>
+    <div class="step" data-x="1500" data-y="-1300" data-rotate="-90">
+        <p><a href="http://rubular.com">Rubular</a> and <a href="http://regex101.com">RegEx 101</a></p>
+    </div>
+    <div  class="step slide" data-x="2200" data-y="-1000"><pre>
+NAME: Sean Burnett POS: RP AGE: ...
+NAME: Tyler Clippard POS: RP AG ...</pre>
     <p>&nbsp;</p>
     
-    <p><span class="substep">NAME: </span><span class="substep">\w*</span><span class="substep"> \w*</span></p>
+    <q><span class="substep">NAME: </span><span class="substep">\w*</span><span class="substep"> \w*</span></q>
+    <q><span class="substep">NAME: [<span class="substep">-</span>\w ]*</span></q>
     
     </div>
     
-    <div  class="step slide" data-x="-600" data-y="-200">     
+    <div  class="step slide" data-x="-800" data-y="-200">     
     	<pre>310-808-5243
 (415) 846-1688
 (720) 318-9049
@@ -205,11 +210,20 @@ NAME: Tyler Clippard POS: RP AGE: 27 WT: 200 BORN: Lexington, KY SALARY: 1650000
 727-455-4538
 727-214-5862
 7274555955
-4242090017</pre>
+4242090017
+(646) 879-9137
+3239533396
+323-816-9613
+323/816.7010</pre>
     </div>
-    <div  class="step slide" data-x="600" data-y="1400">     
+    
+    <div class="step" data-x="0" data-y="-600" data-rotate="-90">
+        <p><a href="http://rubular.com">Rubular</a> and <a href="http://regex101.com">RegEx 101</a></p>
     </div>
-    <div class="step slide" data-x="-600" data-y="2000">
+    <div  class="step slide" data-x="800" data-y="-200">
+    <q></q>        
+    </div>
+    <div class="step slide" data-x="-800" data-y="600">
         <a href="http://xkcd.com/1171/"><img src="http://imgs.xkcd.com/comics/perl_problems.png" alt="XKCD on Regex" /></a><!-- https://xkcd.com/1313/ or https://xkcd.com/208/ -->
 		<ul>
 		    <li>Zed Shaw's <a href="http://regex.learncodethehardway.org/">Learn Regex The Hard Way</a> will make you an expert.</li><br />
