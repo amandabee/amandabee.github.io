@@ -28,7 +28,7 @@ And you're going to need to spot numbers that don't make any sense at all.
 Rounding Off  
 Percent of a Whole  
 Other kinds of rates  
-Percent Change
+Percent Change  
 Means and Medians
 </td><td>
 **The Less Basics:**   
@@ -474,7 +474,7 @@ What's the difference between these two rates? (1.1) -- so Denver's rate is 21.6
 
 So Denver's rate, minus 17.7% of Denver's rate gives us New York's rate. 
 </aside>
----
+--v--
 ## Percent Change
 > "... the number of poor people in New York City and Newark declined by 7 percent, or 120,000 … from 2000 to ... 2008-10"
 "Suburbs' Share of Poor Has Grown Since 2000"
@@ -563,9 +563,8 @@ So … when do you use which? 2013 MLB Salaries range from $480,000 (a handful o
 So, the median is probably a better figure to represent the typical salary. 	
 
 Source: http://data.newsday.com/long-island/data/baseball/mlb-salaries-2013/
-
 </aside>
----
+--v--
 ## Median vs. Mean
 
 Mean MLB age 28
