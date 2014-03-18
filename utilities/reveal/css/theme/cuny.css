@@ -1,8 +1,8 @@
 /**
- * A simple theme for reveal.js presentations, similar
- * to the default theme. The accent color is  rgb(13, 54, 146).
+ * A simple theme for reveal.js presentations, based on
+ * the "simple" theme. The accent color is  rgb(13, 54, 146).
  *
- * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * This theme is Copyright (C) 2014 Amanda Hickman, It is MIT licensed
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 /*********************************************
@@ -24,16 +24,19 @@ body {
   background: rgba(0, 0, 0, 0.99);
   text-shadow: none; }
 
+.reveal .slides>section,
+.reveal .slides>section>section {
+  padding: 0;}
+ 
+
 /*********************************************
  * HEADERS
  *********************************************/
-.reveal h2,
 .reveal h3,
 .reveal h4,
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: black;
   font-family: Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
@@ -41,6 +44,7 @@ body {
   text-shadow: none; }
 
 .reveal h1, .reveal h2 {
+  word-wrap: normal;
   margin: 0 0 20px 0;
   color: #FFF;
   font-family: Impact, sans-serif;
@@ -48,18 +52,59 @@ body {
   letter-spacing: 0.02em;
   text-transform: none;
   text-shadow: none;
-  background: rgb(13, 54, 146); 
+  background: rgb(13, 54, 146); }
+
+.reveal h1 {
+  text-align: center;
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+  border-left: 100px solid rgb(255, 141, 19);}
+
+.reveal h2 {
+  text-align: left;
+  padding: 40px 0 0 0;
   border-left: 25px solid rgb(255, 141, 19);}
-    
-.reveal p {
-    line-height: 1.2em;
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: rgb(31, 73, 125);
+  
+.reveal p, .reveal li, .reveal blockquote, .reveal td, .reveal th {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  color: rgb(31, 73, 125);
+  text-align: left;  
+  font-size: 150%;
 }
 
 
-/*********************************************
+.reveal blockquote p {
+  margin-left: 15px;
+  font-size: 90%
+}
+
+.reveal blockquote {
+  text-align: left;
+  font-family: serif;
+  margin-left: 100px;
+  width: 90%;}
+
+.reveal p, .reveal li {
+  margin-left: 200px;}  
+  
+.reveal table  {
+  margin-left:auto; 
+  margin-right:auto; }
+  
+.reveal .credits {
+  text-align: right;
+  font-size: 60%;  
+  vertical-align: bottom;
+  margin-right: 50px;
+}
+.reveal .credits img { 
+  vertical-align: middle;
+}
+
+
+/******************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
@@ -101,18 +146,18 @@ body {
   
   
 .layered {
-    position:absolute;
+  position:absolute;
 }
 .under {
-    z-index:0; 
-    top:0; left:0;
+  z-index:0; 
+  top:0; left:0;
 }
 .over {
-    z-index:100;
-    position: absolute;
-    top: 20px;
-    left: 313px;
-    opacity: 0.7;
+  z-index:100;
+  position: absolute;
+  top: 20px;
+  left: 313px;
+  opacity: 0.7;
 }
 
 /*********************************************
