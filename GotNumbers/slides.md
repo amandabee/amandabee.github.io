@@ -311,7 +311,11 @@ Add: FDNY salary increase in 5 years from http://www.nyc.gov/html/fdny/html/comm
 <p class="credits">[Suburbs' Share of Poor Has Grown Since 2000](http://www.nytimes.com/2013/05/20/nyregion/suburbs-are-home-to-growing-share-of-regions-poor.html)  
 Sam Roberts, *New York Times*, May 20, 2013</p>
 
-<aside class="notes">When Roberts says that the number of poor people declined by 7% from 2000 to 2008, what does that mean? 
+<span class="fragment">20,000 = .07 * x1</span>  
+<span class="fragment">x1 - 120,000 = x2</span>  
+
+<aside class="notes">When Roberts says that the number of poor people declined by 7% from 2000 to 2008, what does that mean?  It 
+means that 120,000 is 7% of the 2000 count, and that the drop during that 8 year stretch was 120,000. 
 Add: FDNY salary increase in 5 years from http://www.nyc.gov/html/fdny/html/community/ff_salary_benefits_080106.shtml
 </aside>
 --v--
@@ -322,7 +326,7 @@ Add: FDNY salary increase in 5 years from http://www.nyc.gov/html/fdny/html/comm
 <p class="credits">[Suburbs' Share of Poor Has Grown Since 2000](http://www.nytimes.com/2013/05/20/nyregion/suburbs-are-home-to-growing-share-of-regions-poor.html)  
 Sam Roberts, *New York Times*, May 20, 2013</p> 
 
-120,000 = .07 * x1  
+120,000 = .07 * x1
 x1 - 120,000 = x2
 <aside class="notes">When Roberts says that the number of poor people declined by 7% from 2000 to 2008, what does that mean? It 
 means that 120,000 is 7% of the 2000 count, and that the drop during that 8 year stretch was 120,000. 
