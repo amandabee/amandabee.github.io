@@ -671,7 +671,17 @@ Did you notice that I said deBlasio support is *probably* between 61.3% and 69.3
 
 When we say all data is bad, this is part of what we're talking about. 
 </aside>
+
 ---
+## Sampling
+<blockquote class="twitter-tweet" lang="en"><p>Online poll: Should horse-drawn carriages be banned in NYC? <a href="http://t.co/C4wiGEyhmu">http://t.co/C4wiGEyhmu</a> &#10;Please vote!</p>&mdash; Mark Hawthorne Ⓥ (@markhawthorne) <a href="https://twitter.com/markhawthorne/statuses/448461057523077120">March 25, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<aside class="notes">
+What they're really saying here is "If you're interested in horses, pass it on." That's great. 
+
+</aside>
+--v--
 ## Sampling
 Mapping the Storm Cleanup
 TK IMAGE
@@ -682,7 +692,7 @@ WNYC started collecting reports of unplowed streets and quickly mapped a handful
 
 FWIW, John Keefe, at WNYC, who built this map, was the first one to use it in a story about what crowdsourcing does and doesn't show you. There are lots of good reasons to undertake a crowd sourcing project like this. But don't mistake this for a statistically useful sample. 
 </aside>
----
+--v--
 ## Sampling
 TK IMAGE
 
