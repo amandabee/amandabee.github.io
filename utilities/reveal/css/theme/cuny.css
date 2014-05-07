@@ -26,7 +26,10 @@ body {
 
 .reveal .slides>section,
 .reveal .slides>section>section {
-  padding: 0;}
+  padding: 0;
+  width: 120%;}
+  
+
  
 
 /*********************************************
@@ -66,6 +69,13 @@ body {
   padding: 40px 0 0 0;
   border-left: 25px solid rgb(255, 141, 19);}
   
+  
+.reveal h3 {
+  text-align: center;
+  padding: 15px;
+  border-top: 25px solid rgb(255, 141, 19);
+  color: rgb(13, 54, 146);   }
+  
 .reveal p, .reveal li, .reveal blockquote, .reveal td, .reveal th {
   line-height: 1.2em;
   margin-bottom: 10px;
@@ -87,7 +97,7 @@ body {
   width: 90%;}
 
 .reveal p, .reveal li {
-  margin-left: 200px;}  
+  margin-left: 0px;}  
   
 .reveal table  {
   margin-left:auto; 
@@ -107,9 +117,20 @@ body {
 /******************************************
  * LINKS
  *********************************************/
-.reveal a:not(.image) {
-  color:  rgb(13, 54, 146);
-  text-decoration: none;
+ 
+.reveal a {
+
+  color: rgb(255, 141, 19);
+  text-decoration: underline;
+}
+
+.reveal a:hover {
+  color:  #1F497D;
+  text-decoration: underline;
+
+}
+.reveal a:not(.image) { 
+  color: rgb(255, 141, 19);
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   -ms-transition: color .15s ease;
