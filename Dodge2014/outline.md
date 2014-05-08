@@ -14,11 +14,17 @@
   </aside>
   
 -----
-**What is Open Data?**
+  <section>
+  **What is Open Data?**
 
-  <aside class="notes">Over the last decade, countless municipalities have updated existing open records legislation with open *data* laws that mandate that agencies make data available to citizens in usable formats. </aside>
-
---v--
+    <aside class="notes">Over the last decade, countless municipalities have updated existing open records legislation with open *data* laws that mandate that agencies make data available to citizens in usable formats. </aside>
+  </section>
+  
+  <section data-background="opendatamap.png">
+    <small class="caption">[Sunlight Open Data Map](http://sunlightfoundation.com/policy/opendatamap/)</small>
+    <aside class="notes">You can't see it from here, but you know who is not on this map? New Jersey...</aside>
+  </section>
+  <section>
 ![Tools](tool_collage.png)
   <aside class="notes">
     We've also seen a blossoming of powerful free and open source tools:
@@ -26,7 +32,7 @@
     http://cartodb.com
     http://www.qgis.org/en/site/
   When communities have access to data, they do amazing things with it.</aside>
-  
+  </section>
 -----
   <section data-background="">
     **When communities have access to data, they use it.**
@@ -117,6 +123,12 @@ neighborhoods with the most complaints (it turned out to be a specific triangle 
   <section data-background="hackjersey.png">
   <small class="caption">[Hack Jersey](http://www.hackjersey.com/)</small>
   <aside class="notes">There's even a Hack Jersey. And they're having a daylong hackathon and brainstorming session at Montclair State next week. </aside>
+  </section>
+  
+  <section>
+  + [Data-Smart City Solutions](http://datasmart.ash.harvard.edu/)
+  + [America Decoded](http://americadecoded.org/) <!--is an impressivley readable republishing of city codes from a handful of US Cities and an invitation to re-publish your own city code. Open Gov Foundation is Darrell Issa -->
+  + App Contests <!-- the contests tend to produce a lot of parking finder apps, which is neat, but not acutally teh engagement I'm looking for -->
   </section>
   
 
