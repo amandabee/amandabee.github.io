@@ -154,15 +154,14 @@ neighborhoods with the most complaints (it turned out to be a specific triangle 
   </section>
 
 -----
-**Get your own law.**  
+**[Get your own law.](http://sunlightfoundation.com/opendataguidelines/)**  
 ![Open Data Policy Guidelines](opendataguidelines.gif)
 
   <aside class="notes">We probably won't get this far, but if you want to talk about what makes [good open data](http://datasmart.ash.harvard.edu/news/article/guiding-strong-open-data-policies-452) legislation, the Sunlight Foundation has great [guidelines](http://sunlightfoundation.com/opendataguidelines/) for open data policies, with sample language.
   
   
 + Thomas Levine on [using Socrata's site metrics API](http://thomaslevine.com/!/socrata-metrics-api/) to understand how people are using Socrata.
-
-  
+ 
   </aside>
   
 
