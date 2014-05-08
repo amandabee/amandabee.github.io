@@ -60,6 +60,8 @@ neighborhoods with the most complaints (it turned out to be a specific triangle 
 <!--crashstat-->
 
   <section data-background="crashstat.png">
+  
+  <small class="caption">[CrashStat](http://crashstat.org/)</small>
   <aside class="notes">For years, Transportation Alternatives collected data on pedestrian and cyclist fatalities. [CrashStat](http://crashstat.org/) is a map of those crashes. And it allowed them to identify stretches of city streets that are particularly dangerous to bikers and walkers. 
 
   They compiled the data from annual DOT releases, I believe they had to FOIA the data in some years. </aside>
@@ -90,19 +92,24 @@ neighborhoods with the most complaints (it turned out to be a specific triangle 
 <!-- Hacker Communities -->
 
   <section data-background="codeforamerica.png">
-  [Code For America](http://www.codeforamerica.org/about/)
+  <small class="caption">[Code For America](http://www.codeforamerica.org/about/)</small>
   <aside class="notes">[Code For America](http://www.codeforamerica.org/about/) is a huge resource. They organize hack days, place fellows inside of local governments and provide support to local groups that want to get together and do more with civic data.
   </aside>
   </section>
-  
-    <section data-background="hacktyler_artmap.png">
-    [Hack Tyler](http://hacktyler.com/)
-  <aside class="notes">Chris Groskopf was a developer at the Chicago Tribune when his family relocated to Tyler, Texas. He launched [Hack Tyler](http://www.hacktyler.com/) to get to know his new home town. They got together and built a [transit  app](http://transit.hacktyler.com/) and a map of public art in Tyler. And they published their code. </aside>
+    
+  <section data-background="early_oakland.png">
+  <small class="caption">[Open Oakland](http://openoakland.org/projects/) | [Early Oakland](http://www.earlyoakland.com/)</small>
+  <aside class="notes">Open Oakland actually meets at city hall. They built a really nice portal for information about childcare and Pre-K in Oakland. They're re-purposing [Philadelphia's legislation tracker](http://www.councilmatic.org/) for Oakland and [exploring options](http://openoakland.org/projects/#ced) for tracking vacant lots in Oakland.</aside>
+  </section>
+    <section data-background="hacktyler.png">
+  <small class="caption">[Hack Tyler](http://hacktyler.com/)</small>
+  <aside class="notes">Chris Groskopf was a developer at the Chicago Tribune when his family relocated to Tyler, Texas. He launched [Hack Tyler](http://www.hacktyler.com/) to get to know his new home town. They got together and built a [transit  app](http://transit.hacktyler.com/) and a map of public art in Tyler.</aside>
   </section>
   
-  <section data-background="early_oakland.png">
-  [Open Oakland](http://openoakland.org/projects/) | [Early Oakland](http://www.earlyoakland.com/)
-  <aside class="notes">Open Oakland actually meets at city hall. They built a really nice portal for information about childcare and Pre-K in Oakland. They're re-purposing [Philadelphia's legislation tracker](http://www.councilmatic.org/) for Oakland and [exploring options](http://openoakland.org/projects/#ced) for tracking vacant lots in Oakland.</aside>
+  <section data-background="hacktyler_artmap.png">
+  <small class="caption">[Hack Tyler](http://hacktyler.com/)</small>
+  
+  <aside class="notes">And they published their code. </aside>
   </section>
     
   <section data-background="hackjersey.png">
