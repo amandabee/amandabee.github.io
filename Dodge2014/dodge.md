@@ -1,27 +1,3 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Digital Strategies for Community and Place-Based Foundations</title>
-    <meta name="generator" content="Reveal.JS" />
-    <meta name="presdate" content="20140508" />
-    <meta name="author" content="Amanda Hickman" />
-    <meta name="company" content="CUNY Graduate School of Journalism" />
-    <meta name="description" content="Data and Community Problem Solving">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="/talks/utilities/reveal/css/reveal.css">
-    <link rel="stylesheet" href="/talks/utilities/reveal/css/theme/beige.css" id="theme"> 
-    <link rel="stylesheet" href="/talks/utilities/reveal/lib/css/zenburn.css"> 
-   
-    <!--[if lt IE 9]>
-    <script src="/talks/utilities/reveal/lib/js/html5shiv.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="reveal">
-      <!-- Any section element inside of this container is displayed as a slide -->
-      <div class="slides">
 
 <section>
   <section>
@@ -30,7 +6,6 @@
     <aside class="notes">I also do freelance data analysis and visualization work, mostly in collaboration with other journalists, looking at things like [where the four year olds are](http://www.voicesofny.org/2014/04/tracking-nycs-pre-k-rollout/) vs. where the new pre-k seats are, or how far from home prisoners in one Colorado pentientary are doing time. </aside>
   </section>
   <section>
-    <img src="abh_prek.png" title="Where the toddlers are." />
     <aside class="notes">I also do freelance data analysis and visualization work, mostly in collaboration with other journalists, looking at things like [where the four year olds are](http://www.voicesofny.org/2014/04/tracking-nycs-pre-k-rollout/) vs. where the new pre-k seats are, or how far from home prisoners in one Colorado pentientary are doing time. 
     </aside>
     
@@ -44,7 +19,6 @@
 
   </section>
   <section>
-  <img src="tool_collage.png" />
     <aside class="notes">
       We've also seen a blossoming of powerful free and open source tools:
       https://www.mapbox.com/tilemill/
