@@ -77,6 +77,13 @@ body {
   color: #fff;
   background: #564826; }
 
+ 
+.reveal .caption a {
+  background: #FFF;
+  color: #666;
+  padding: 10px; 
+  border: 1px dashed #999;
+}
 /*********************************************
  * IMAGES
  *********************************************/
