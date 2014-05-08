@@ -1,6 +1,7 @@
 
   **Data and Community Problem Solving**  
-  Amanda Hickman | @amandabee
+  Amanda Hickman | @amandabee  
+  ![CUNY](/talks/utilities/cuny_square_RGB_orange.jpg "CUNY Graduate School of Journalism")
   
   <aside class="notes">I also do freelance data analysis and visualization work, mostly in collaboration with other journalists, looking at things like [where the four year olds are](http://www.voicesofny.org/2014/04/tracking-nycs-pre-k-rollout/) vs. where the new pre-k seats are, or how far from home prisoners in one Colorado pentientary are doing time. 
   </aside>
@@ -33,7 +34,7 @@
 -----  
 
   <section data-background="latimes.png">
-    <small style="top: 400px; left: 50px;">[How fast is LAFD where you live?](http://graphics.latimes.com/how-fast-is-lafd/#10/33.9661/-118.6201)</small>
+    <small class="caption">[How fast is LAFD where you live?](http://graphics.latimes.com/how-fast-is-lafd/#10/33.9661/-118.6201)</small>
     <aside class="notes"></aside>
   </section>
   <section data-background="secondcityzoning.png">
@@ -98,12 +99,13 @@ neighborhoods with the most complaints (it turned out to be a specific triangle 
   </section>
     
   <section data-background="early_oakland.png">
-  <small class="caption">[Open Oakland](http://openoakland.org/projects/) | [Early Oakland](http://www.earlyoakland.com/)</small>
-  <aside class="notes">Open Oakland actually meets at city hall. They built a really nice portal for information about childcare and Pre-K in Oakland. They're re-purposing [Philadelphia's legislation tracker](http://www.councilmatic.org/) for Oakland and [exploring options](http://openoakland.org/projects/#ced) for tracking vacant lots in Oakland.</aside>
+    <small class="caption">[Open Oakland](http://openoakland.org/projects/) | [Early Oakland](http://www.earlyoakland.com/)</small>
+    <aside class="notes">Open Oakland actually meets at city hall. They built a really nice portal for information about childcare and Pre-K in Oakland. They're re-purposing [Philadelphia's legislation tracker](http://www.councilmatic.org/) for Oakland and [exploring options](http://openoakland.org/projects/#ced) for tracking vacant lots in Oakland.</aside>
   </section>
-    <section data-background="hacktyler.png">
-  <small class="caption">[Hack Tyler](http://hacktyler.com/)</small>
-  <aside class="notes">Chris Groskopf was a developer at the Chicago Tribune when his family relocated to Tyler, Texas. He launched [Hack Tyler](http://www.hacktyler.com/) to get to know his new home town. They got together and built a [transit  app](http://transit.hacktyler.com/) and a map of public art in Tyler.</aside>
+  
+  <section data-background="hacktyler.png">
+    <small class="caption">[Hack Tyler](http://hacktyler.com/)</small>
+    <aside class="notes">Chris Groskopf was a developer at the Chicago Tribune when his family relocated to Tyler, Texas. He launched [Hack Tyler](http://www.hacktyler.com/) to get to know his new home town. They got together and built a [transit  app](http://transit.hacktyler.com/) and a map of public art in Tyler.</aside>
   </section>
   
   <section data-background="hacktyler_artmap.png">

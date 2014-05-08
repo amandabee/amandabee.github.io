@@ -84,6 +84,14 @@ body {
   padding: 10px; 
   border: 1px dashed #999;
 }
+
+.reveal .caption {
+  postion: absolute; 
+  margin-top: 700px;
+  margin-right: 1000px;
+  bottom: 0px;
+  left: 50px;
+}
 /*********************************************
  * IMAGES
  *********************************************/
