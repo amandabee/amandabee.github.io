@@ -125,13 +125,20 @@ neighborhoods with the most complaints (it turned out to be a specific triangle 
   <aside class="notes">There's even a Hack Jersey. And they're having a daylong hackathon and brainstorming session at Montclair State next week. </aside>
   </section>
   
+  <section data-background="blightstatus.png">
+  <small class="caption">[Blight Status](http://blightstatus.nola.gov/)</small>
+  
+  <aside class="notes">via [Data-smart City Solutions](http://datasmart.ash.harvard.edu/news/article/new-orleans-winning-strategy-in-the-war-on-blight-420), [BlightSTAT](http://www.nola.gov/performance-and-accountability/reports/blightstat/) and [Blight Status](http://blightstatus.nola.gov/)</aside>
+  </section>
   <section>
-  + [Data-Smart City Solutions](http://datasmart.ash.harvard.edu/)
-  + [America Decoded](http://americadecoded.org/) <!--is an impressivley readable republishing of city codes from a handful of US Cities and an invitation to re-publish your own city code. Open Gov Foundation is Darrell Issa -->
-  + App Contests <!-- the contests tend to produce a lot of parking finder apps, which is neat, but not acutally teh engagement I'm looking for -->
+  
+  + [Data-Smart City Solutions](http://datasmart.ash.harvard.edu/)  
+  + [America Decoded](http://americadecoded.org/) <!--is an impressivley readable republishing of city codes from a handful of US Cities and an invitation to re-publish your own city code. Open Gov Foundation is Darrell Issa -->  
+  + App Contests <!-- the contests tend to produce a lot of parking finder apps, which is neat, but not acutally the engagement I'm looking for -->  
+  <aside class="notes">via [Data-smart City Solutions](http://datasmart.ash.harvard.edu/news/article/new-orleans-winning-strategy-in-the-war-on-blight-420), [BlightSTAT](http://www.nola.gov/performance-and-accountability/reports/blightstat/) and [Blight Status](http://blightstatus.nola.gov/)</aside>
+  
   </section>
   
-
 
 -----
 <!-- Collaboration -->
@@ -147,7 +154,8 @@ neighborhoods with the most complaints (it turned out to be a specific triangle 
   </section>
 
 -----
-**Get your own law.**
+**Get your own law.**  
+![Open Data Policy Guidelines](opendataguidelines.gif)
 
   <aside class="notes">We probably won't get this far, but if you want to talk about what makes [good open data](http://datasmart.ash.harvard.edu/news/article/guiding-strong-open-data-policies-452) legislation, the Sunlight Foundation has great [guidelines](http://sunlightfoundation.com/opendataguidelines/) for open data policies, with sample language.
   
