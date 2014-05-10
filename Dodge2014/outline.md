@@ -3,6 +3,8 @@
   Amanda Hickman | @amandabee  
   ![CUNY](/talks/utilities/cuny_square_RGB_orange.jpg "CUNY Graduate School of Journalism")
   
+  PS. I'd love to add your story. If you have a great story about how you used data (open or otherwise) to impact policy or make change, I'm all ears.
+  
   <aside class="notes">I also do freelance data analysis and visualization work, mostly in collaboration with other journalists, looking at things like [where the four year olds are](http://www.voicesofny.org/2014/04/tracking-nycs-pre-k-rollout/) vs. where the new pre-k seats are, or how far from home prisoners in one Colorado pentientary are doing time. 
   </aside>
   
