@@ -1,3 +1,5 @@
+<!-- This should be posted someplace where students can access it so they have the raw numbers to work with. --> 
+
 #Got Numbers?
 We’ll refer to this for links and details during Math for Journalists. Questions? I’m  amanda.hickman@journalism.cuny.edu and I sit in 419i
 
