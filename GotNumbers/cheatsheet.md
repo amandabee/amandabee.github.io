@@ -1,5 +1,24 @@
 # Math for Journalists (A Cheatsheet)
 
+## Know These Numbers
+
+Look these numbers up and fill them in. Note your sources, and the year of the data.
+
+Population: 
+World ________ US ________ New York City_______
+Median household income: 
+US ________ New York City ________
+
+Minimum Wage:
+Federal ________ New York ________
+
+Federal Poverty Level: ____________
+*Bonus: how is the “poverty level” determined?*
+
+Inflation:
+Average inflation since the 20s ____________
+Dow Jones range ______________________
+NASDAQ range  ________________________ 
 
 ## Rounding
 
