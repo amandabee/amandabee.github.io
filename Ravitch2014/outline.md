@@ -51,7 +51,7 @@
 
 -----
 <section data-background="http://www.howtoteachadults.com/wp-content/uploads/2013/01/HTTA-unwrapped-small.jpg">
-##Everyone is Different
+<h2>Everyone is Different</h2>
   <aside class="notes">
   We know a lot of things about the human brain, and about how people 
   learn. We could scuttled down some [developmental psychology rabbit 
@@ -68,7 +68,7 @@
 
 -----  
   <section>
-#Data Visualization Changes Stories
+<h1>Data Visualization Changes Stories</h1>
 
     <aside class="notes"></aside>
   </section>
