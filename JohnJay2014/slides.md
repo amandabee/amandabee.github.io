@@ -6,18 +6,18 @@
   
 --v-- 
 
-# Please don't tweet this!
+# Under Construction
 
 NOTES: 
-You are going to need a CartoDB account to follow along today, and you're going to need a credit card to sign up, but!  I have a promo code. 
+This does work for notes. 
   
 --v-- 
 
-## <http://cartodb.com/signup>
-## onaworkshop14
+## 
+## 
 
 NOTES: 
-You are going to need a CartoDB account to follow along today, and you're going to need a credit card to sign up, but!  I have a promo code. 
+Down 1
 
 ----- 
 <section data-background="imgs/banned_books.png">
@@ -27,6 +27,11 @@ You are going to need a CartoDB account to follow along today, and you're going 
 
 -----
 
+## So ... where do you find data?
+# <http://bit.ly/JohnJay2014>
 
+Federal Justice Statistics Resource Center
 
+NOTES: 
+Down 1
 
