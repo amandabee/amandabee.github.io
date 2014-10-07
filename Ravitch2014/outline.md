@@ -110,7 +110,7 @@
   
  
 <section>    
-##Start Small
+<h2>Start Small</h2>
 <aside class="notes">
 I'm not an artist. I'm not even that creative. All of these rules are rules that someone will break brilliantly.
   Cut to the Chase
@@ -123,6 +123,7 @@ I'm not an artist. I'm not even that creative. All of these rules are rules that
   Never put more than two items in a pie chart, but you can make lots of pie charts. 
 </aside>
 </section>
+
 <section>  
 <ul>
   <li><a href="https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72#">Less is More</a></li>
@@ -193,37 +194,35 @@ I'm not an artist. I'm not even that creative. All of these rules are rules that
   
   
 -----
-<section>
-## There Are Rules
-</section>
 
-<section>  
+## There Are Rules
+
+
+--v-- 
+
+**Some Excellent Rules**
 
 + [Be Complete](/talks/completeness)
 + [Watch Your Axes](/talks/aug092013/)
 + Keep it readable -- don't [distort your pie chart](http://finalbossform.com/post/95231880775/felony-gun-possession-illegal-possession-of-military), for instance. 
-+ Don't [confuse correlation and causation](http://www.businessinsider.com/spurious-correlations-by-tyler-vigen-2014-5#ixzz31FAUIoTZ).
-+ [Numbers aren't everything](http://www.thenewyorkworld.com/2014/04/15/welfare-center-managers-dismissed/) -- it is always easier to [juke the statistics](http://www.latimes.com/local/la-me-crimestats-lapd-20140810-story.html#page=1) than change the facts.
-</section>
-<section
-+ <a href="https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72#">Less is More</a>
-+ Know your encoding. <a href="http://www.datavizcatalogue.com/">Data Viz Catalog</a>
++ [Numbers aren't everything](http://www.thenewyorkworld.com/2014/04/15/welfare-center-managers-dismissed/) -- it is always easier to [juke the statistics](http://www.latimes.com/local/la-me-crimestats-lapd-20140810-story.html#page=1) than change the facts
++ [Less is More](https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72#)
++ Know your encoding. [Data Viz Catalog](http://www.datavizcatalogue.com/)
 + Make it look good. [Not like this](http://finalbossform.com/post/95231880775/felony-gun-possession-illegal-possession-of-military) or [this](http://www.dailywireless.org/2014/07/28/more-broadband-subs-than-video-subs/) or [this](http://ilovecharts.tumblr.com/post/88368733301/hi-guys-today-im-headed-down-to-the-white)
+
+--v--
+** Don't [confuse correlation and causation](http://www.businessinsider.com/spurious-correlations-by-tyler-vigen-2014-5#ixzz31FAUIoTZ)**
 
  ![Not causation](imgs/correlation.png)
 
-</section>
-
 -----
-<section>
 ##Find a Partner
-</section>
-<section>
+
+--v--
+
 [Quantifying de Blasio](http://www.crainsnewyork.com/article/20140817/POLITICS/140819893/quantifying-de-blasio?CSAuthResp=1%3A173546477383479%3A220276%3A3%3A24%3Aapproved%3A39038AD28599284165C1CA9A024F8178)
 
-----
-<section>
-##Let's Code
-</section>
+--v--
 
-</section>
+##Let's Code
+
