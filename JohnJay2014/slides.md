@@ -7,6 +7,10 @@
 NOTES:
 I know a little bit about you from your bios, but I'd love to get a sense of your experience and the kind of data you already have access to.  What are your major hurldes?  How confident are you working with data? Displaying it? 
 
+--v--
+
+# <http://bit.ly/JohnJay14>
+
 -----
 # Why Visualize?
 
@@ -223,9 +227,11 @@ Karen De Sa incorporated a great timeline into her package, [Drugging our Kids](
 + I keep a [tumblr](http://jour72312.tumblr.com/) for my data visualization class.
 
 -----
-## Where to find data:
+# Where to find data:
 
-## <http://bit.ly/JohnJay2014>
+## <http://bit.ly/JohnJay14-data>
+
+<https://github.com/amandabee/cunyjdata/wiki/Where-to-Find-Data-(Juvenile-Justice-Edition)>
 
 NOTES: 
 I keep a wiki for my data visualization classes. I'll be working with a handful of fellows on data and visualization projects and I'm hoping we can really flesh out that wiki page. 
@@ -251,5 +257,7 @@ My first pass.
 
 -----
 
-# amanda.hickman@journalism.cuny.edu
-# @amandabee
+## amanda.hickman@journalism.cuny.edu
+## @amandabee
+
+ ![CUNY](/talks/utilities/cuny_square_RGB_orange.jpg "CUNY Graduate School of Journalism")
