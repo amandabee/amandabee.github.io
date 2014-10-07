@@ -34,37 +34,26 @@ NOTES: The real reason we do this is because it tells a story.
     <small class="caption">[How fast is LAFD where you live?](http://graphics.latimes.com/how-fast-is-lafd/#10/33.9661/-118.6201)</small>
     <aside class="notes">In Nov of 2012, th LA Times started reporting on serious problems in the city's 911 system. One of the things you can really see in this project is how much of the city is affected. </aside>
 </section>
+
 <section data-background="/talks/Dodge2014/sfpp_quake.png">
   <small class="caption">[San Francisco Public Press](http://sfpublicpress.org/softstorylist)</small>
   <aside class="notes">San Francisco Public Press got ahold of a list of buildings that the city had identified as being vulnerable to earthquakes -- the city had been sitting on the list for several years, but after SFPP published their story about these buildings, the board of supervisers got cracking on legislation to require the buildings be retrofitted. </aside>
 </section>
 
-<section data-background="">
-    <small class="caption">[]()</small>
-    <aside class="notes">I have a lot of examples here from projects that I think really work.</aside>
-
-</section>
-<section data-background="">
-    <small class="caption">[]()</small>
-    <aside class="notes"></aside>
-
-</section>
------
-
-<section data-background="imgs/drugging_kids.png">
-    <small class="caption">[Drugging our Kids](http://webspecial.mercurynews.com/druggedkids/)</small>
-    <aside class="notes">Many of you are already incorporating some data visualization work:
-
-Karen De Sa incorporated a great timeline into her package, [Drugging our Kids](http://webspecial.mercurynews.com/druggedkids). </aside>
+<section data-background="imgs/slide26.png">
+    <small class="caption">[WNYC Stop and Frisk](http://project.wnyc.org/stop-frisk-guns/)</small>
 </section>
 
+<section data-background="imgs/slide27.png">
+    <small class="caption">[Steven Rmalewski's Take](http://spatialityblog.com/2012/07/27/nyc-stop-frisk-cartographic-observations/)</small>
+</section>
 
-<section data-background="imgs/torque.png">
-    <small class="caption">[Britain's Royal Navy in the First World War](http://www.theguardian.com/news/datablog/interactive/2012/oct/01/first-world-war-royal-navy-ships-mapped), animated with [Torque](https://github.com/CartoDB/torque)</small>
-    <aside class="notes">I actually think Karen's timeline is great, but I can also picture an animation that shows just the locations of the child's many foster homes over time.</aside>
+<section data-background="imgs/slide28.png">
+    <small class="caption">[WNYC Teen Stop and Frisk](hhttp://project.wnyc.org/stop-frisk-teens/index.html)</small>
 </section>
 
 -----
+
 # Principles of Design
 
 --v--
@@ -80,6 +69,7 @@ This also happens to be a bit silly because the real takeaway here is "Busy Stat
 ![Fox News on Unemployment](imgs/y-axis_fox.png)
 
 <small>[Media Matters for America](http://mediamatters.org/blog/2012/07/31/dishonest-fox-chart-bush-tax-cut-edition/189046), July 31, 2012.</small>
+
 --v--
 
 ![Gas wells chart](/talks/aug092013/obama_gas1.jpg) ![Gas wells chart do-over](/talks/aug092013/obama_gas2.png)
@@ -100,7 +90,6 @@ And, while you're in there, ask yourself if you need a key!
 
 Pixels are precious. 
 
-
 --v--
 ## Consider small multiples
 
@@ -120,6 +109,9 @@ Piling the data together in one chart requires me to work more -- there's no way
 --v--
 
 ## Show don't tell
+![College Degree](imgs/upshot_on_college.png)
+
+<small>From *NY Times*, [Is College Worth It? Clearly, New Data Say](http://www.nytimes.com/2014/05/27/upshot/is-college-worth-it-clearly-new-data-say.html)</small>
 
 NOTES: 
 One of the ways that outlets like the NY Times stand out is how they wrap their data. You'll never read a caption like "The chart below shows..." -- words are precious, so conserve them. 
@@ -131,15 +123,30 @@ One of the ways that outlets like the NY Times stand out is how they wrap their 
 
 NOTES:
 Look for white space and find a way to use it. 
+
 -----
-<section>
-<h1>Deep Dives</h1>
+
+# Deep Dives
+
++ NPR on [Unintended Accelleration](http://www.npr.org/templates/story/story.php?storyId=124276771)
++ Milwaukee Journal Sentinel on [board paychecks](http://www.jsonline.com/watchdog/watchdogreports/97242609.html)
++ Alabama.com on [NCAA concussion lawsuits](http://www.al.com/sports/index.ssf/2014/02/whos_suing_the_ncaa_alcom_data.html)
+
+![Presidential Pardons](imgs/deep_dives.png)
+
+-----
+
+<section data-background="imgs/drugging_kids.png">
+    <small class="caption">[Drugging our Kids](http://webspecial.mercurynews.com/druggedkids/)</small>
+    <aside class="notes">Many of you are already incorporating some data visualization work:
+
+Karen De Sa incorporated a great timeline into her package, [Drugging our Kids](http://webspecial.mercurynews.com/druggedkids). </aside>
 </section>
 
-<section data-background="">
-    <small class="caption">[Note]()</small>
-    <aside class="notes"></aside>
 
+<section data-background="imgs/torque.png">
+    <small class="caption">[Britain's Royal Navy in the First World War](http://www.theguardian.com/news/datablog/interactive/2012/oct/01/first-world-war-royal-navy-ships-mapped), animated with [Torque](https://github.com/CartoDB/torque)</small>
+    <aside class="notes">I actually think Karen's timeline is great, but I can also picture an animation that shows just the locations of the child's many foster homes over time.</aside>
 </section>
 
 -----
@@ -177,3 +184,27 @@ Look for white space and find a way to use it.
 
 NOTES: 
 I keep a wiki for my data visualization classes. I'll be working with a handful of fellows on data and visualization projects and I'm hoping we can really flesh out that wiki page. 
+
+-----
+# Do we have any time left?
+
+--v--
+
+## Let's dig in!
+
++ [NYC Average Daily Inmate Population](https://data.cityofnewyork.us/Public-Safety/Average-Daily-Inmate-Population/26ze-s5bx)
++ [Highcharts Basic Bar](http://www.highcharts.com/demo/bar-basic)
++ [Mister Data Converter](https://shancarter.github.io/mr-data-converter/)
++ [Highcharts Documentation](http://api.highcharts.com/highcharts)
+
+--v--
+
+## <http://jsfiddle.net/1bgn4j02/7/> 
+
+My first pass.
+
+
+-----
+
+# amanda.hickman@journalism.cuny.edu
+# @amandabee
