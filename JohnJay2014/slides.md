@@ -26,7 +26,7 @@ NOTES: The real reason we do this is because it tells a story.
 
 -----
 <section data-background="imgs/CIR_guzzles.png">
-    <small class="caption">[California water officials aren’t following own call for conservation](https://beta.cironline.org/reports/california-water-officials-arent-following-own-call-for-conservation/)</small>
+    <small class="caption">[California water officials aren't following own call for conservation](https://beta.cironline.org/reports/california-water-officials-arent-following-own-call-for-conservation/)</small>
     <aside class="notes">It is one thing to say "this dude uses three tiems as much water as anyone else. It's another thing to actually look at how each of these officials stacks up. I'm usually opposed to gimicks like the house icon here, but it really drives home how much more water these officials are using. </aside>
 
 </section>
@@ -52,46 +52,27 @@ NOTES: The real reason we do this is because it tells a story.
     <small class="caption">[WNYC Teen Stop and Frisk](hhttp://project.wnyc.org/stop-frisk-teens/index.html)</small>
 </section>
 
+<section data-background="imgs/nyt_pd-race-gap.png">
+    <small class="caption">[The Race Gap in America’s Police Departments](http://www.nytimes.com/interactive/2014/09/03/us/the-race-gap-in-americas-police-departments.html)</small>
+</section>
+
+
+
 -----
 
-# Principles of Design
+[<img src="imgs/deep_dives.png" style="float:right" alt="Wa Po Screenshot" />](http://apps.washingtonpost.com/national/pardons/)
+# More Deep Dives 
+
++ NPR on [Unintended Accelleration](http://www.npr.org/templates/story/story.php?storyId=124276771)
++ Milwaukee Journal Sentinel on [board paychecks](http://www.jsonline.com/watchdog/watchdogreports/97242609.html)
++ Alabama.com on [NCAA concussion lawsuits](http://www.al.com/sports/index.ssf/2014/02/whos_suing_the_ncaa_alcom_data.html)
+
+-----
+
+# What Makes Data Viz Work?
 
 --v--
-## Don't make me work
-![Gothamist turnstyle data](/talks/aug092013/slide10.png)
-
-NOTES: 
-This also happens to be a bit silly because the real takeaway here is "Busy Stations are Busy" which I hope doesn't come as a great surprise. But even to get that far I have to look at the chart, Look up at the top right where it explains that the y-axis is Weekends, remember that the Y axis is the horizontal one, and then the grid isn't even in squares. The point of a visualization is to make the numbers *easier* to understand. Not harder.
-
---v--
-## Don't move the axis
-
-![Fox News on Unemployment](imgs/y-axis_fox.png)
-
-<small>[Media Matters for America](http://mediamatters.org/blog/2012/07/31/dishonest-fox-chart-bush-tax-cut-edition/189046), July 31, 2012.</small>
-
---v--
-
-![Gas wells chart](/talks/aug092013/obama_gas1.jpg) ![Gas wells chart do-over](/talks/aug092013/obama_gas2.png)
-
-<small>NPR's ["It's all politics"](http://www.npr.org/blogs/itsallpolitics/2013/02/13/171935151/chart-check-did-obama-s-graphics-enhance-his-big-speech)fact checked President Obama's 2013 State of the Union slides.
-
-NOTES: Fox definitely doesn't have a monopoly on distorting the Y axis. There are times when you're going to be tempted to zoom in, but make sure you're confident that you aren't grossly distoring the numbers. 
-
---v--
-## Continuous Things on a Continuum
-
-![2012 Subway ridership, by station](imgs/not_continuous.png "Not continuous")
-
-<small>From *Gothamist*, April 10, 2013</small>
-
-NOTES:
-And, while you're in there, ask yourself if you need a key!
-
-Pixels are precious. 
-
---v--
-## Consider small multiples
+## Small Multiples
 
 ![NYT Bronx Courts](imgs/nyt_bronx_felony.png)
 
@@ -104,6 +85,22 @@ Pixels are precious.
 
 NOTES:
 Piling the data together in one chart requires me to work more -- there's no way to read this chart without checking the key.
+
+--v--
+
+
+## Sometimes you don't need a chart.
+
+[![Children with NPC photographed for WSJ Trials story](imgs/portraits-of-npc.png)](http://projects.wsj.com/trials)
+
+<small>[What If the Data Visualization is Actually People?](https://source.opennews.org/en-US/learning/what-if-data-visualization-actually-people/)</small>
+
+
+--v--
+
+Lena Groeger has a [great writeup on the value of going small](http://www.propublica.org/nerds/item/a-big-article-about-wee-things).
+
+[![A Big Article About Wee Things](imgs/groeger_wee.png)](http://www.propublica.org/nerds/item/a-big-article-about-wee-things)
 
 
 --v--
@@ -124,15 +121,57 @@ One of the ways that outlets like the NY Times stand out is how they wrap their 
 NOTES:
 Look for white space and find a way to use it. 
 
------
 
-# Deep Dives
 
-+ NPR on [Unintended Accelleration](http://www.npr.org/templates/story/story.php?storyId=124276771)
-+ Milwaukee Journal Sentinel on [board paychecks](http://www.jsonline.com/watchdog/watchdogreports/97242609.html)
-+ Alabama.com on [NCAA concussion lawsuits](http://www.al.com/sports/index.ssf/2014/02/whos_suing_the_ncaa_alcom_data.html)
+--v--
+## Don't make me work
+--v--
 
-![Presidential Pardons](imgs/deep_dives.png)
+![Gothamist turnstyle data](/talks/aug092013/slide10.png)
+
+NOTES: 
+This also happens to be a bit silly because the real takeaway here is "Busy Stations are Busy" which I hope doesn't come as a great surprise. But even to get that far I have to look at the chart, Look up at the top right where it explains that the y-axis is Weekends, remember that the Y axis is the horizontal one, and then the grid isn't even in squares. The point of a visualization is to make the numbers *easier* to understand. Not harder.
+
+--v--
+## Don't move the axis
+
+![Fox News on Unemployment](imgs/y-axis_fox.png)
+
+<small>[Media Matters for America](http://mediamatters.org/blog/2012/07/31/dishonest-fox-chart-bush-tax-cut-edition/189046), July 31, 2012.</small>
+
+--v--
+
+![Gas wells chart](/talks/aug092013/obama_gas1.jpg) ![Gas wells chart do-over](/talks/aug092013/obama_gas2.png)
+
+<small>NPR's ["It's all politics"](http://www.npr.org/blogs/itsallpolitics/2013/02/13/171935151/chart-check-did-obama-s-graphics-enhance-his-big-speech) fact checked President Obama's 2013 State of the Union slides.
+
+NOTES: Fox definitely doesn't have a monopoly on distorting the Y axis. There are times when you're going to be tempted to zoom in, but make sure you're confident that you aren't grossly distoring the numbers. 
+
+--v--
+## Continuous Things on a Continuum
+
+![2012 Subway ridership, by station](imgs/not_continuous.png "Not continuous")
+
+<small>From *Gothamist*, April 10, 2013</small>
+
+NOTES:
+And, while you're in there, ask yourself if you need a key!
+
+Pixels are precious. 
+
+--v--
+## Numbers Have Perspective, too
+
+![Two Views of the Economy](imgs/nyt_charts.png)
+
+<small>*NY Times* [One Report, Divergint Perspectives](http://www.nytimes.com/interactive/2012/10/05/business/economy/one-report-diverging-perspectives.html), October 5, 2012</small>
+
+--v--
+## Numbers are the easiest thing to change
+
+![Welfare center managers dismissed for inflating job-placement numbers](imgs/nyw_inflating_data.png)
+
+<small>*New York World*, [Welfare center managers dismissed for inflating job-placement numbers](http://www.thenewyorkworld.com/2014/04/15/welfare-center-managers-dismissed/), April 15, 2014</small>
 
 -----
 
@@ -149,6 +188,12 @@ Karen De Sa incorporated a great timeline into her package, [Drugging our Kids](
     <aside class="notes">I actually think Karen's timeline is great, but I can also picture an animation that shows just the locations of the child's many foster homes over time.</aside>
 </section>
 
+<section>
+    <img src="imgs/mother_jones-drought.gif" alt="animation of CA drought" /><br />
+    <small><a href="http://www.motherjones.com/blue-marble/2014/07/watch-drought-take-over-entire-state-california">Watch Drought Take Over the Entire State of California in One GIF</a></small>
+
+</section>
+
 -----
 
 # Great Tools
@@ -160,13 +205,14 @@ Karen De Sa incorporated a great timeline into her package, [Drugging our Kids](
 
 + [Highcharts](http://www.highcharts.com/)
 + [ChartBuilder](http://quartz.github.io/Chartbuilder/)
++ [and some more](http://www.fastcodesign.com/3029239/infographic-of-the-day/30-simple-tools-for-data-visualization) tools other folks like
 
 --v-- 
 
 ## For Maps
 
 + [Story Map](http://storymap.knightlab.com/)
-+ [CartoDB](cartodb.com)
++ [CartoDB](http://cartodb.com)
 + [CartoDB Torque]()
 
 --v--
@@ -174,13 +220,12 @@ Karen De Sa incorporated a great timeline into her package, [Drugging our Kids](
 ## For Ideas
 
 + SPJ has a [heap of links](http://journaliststoolbox.org/archive/2014/09/online-journalism.html)
++ I keep a [tumblr](http://jour72312.tumblr.com/) for my data visualization class.
 
 -----
 ## Where to find data:
 
-[Open States](http://sunlightfoundation.com/policy/opendatamap/)
-
-# <http://bit.ly/JohnJay2014>
+## <http://bit.ly/JohnJay2014>
 
 NOTES: 
 I keep a wiki for my data visualization classes. I'll be working with a handful of fellows on data and visualization projects and I'm hoping we can really flesh out that wiki page. 
