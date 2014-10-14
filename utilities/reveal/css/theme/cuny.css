@@ -51,6 +51,11 @@ body {
    color: rgb(13, 54, 146);
    text-align: left; } 
 
+.reveal h3 {
+/*   border-bottom: 2px solid rgb(255, 141, 19);
+   text-align: left;*/
+   color: rgb(255, 141, 19);
+   margin:  10 10% 0 10%;} 
 
 /*********************************************
  * LINKS
@@ -153,32 +158,37 @@ body {
   vertical-align: bottom;
   margin-right: 50px; }
 
-p, ul, ol, table, pre, dl {
+.reveal p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
 
-table {
+.reveal table {
   width: 80%;
   border-collapse:collapse;
   padding-left: 20%;
 }
 
-th, td {
+.reveal th, .reveal td {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
 }
 
-dt {
+.reveal dt {
   color:#444;
   font-weight:700;
 }
 
-th {
+.reveal th {
   color:#444;
 }
 
-
+.reveal div .twitter-tweet {
+border: .5px solid #EEE;
+width: 74%;
+margin-bottom: 25px;
+margin-left: 10%;
+}
 
 
