@@ -15,7 +15,7 @@ body {
   background-color: white; }
 
 .reveal {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Ubuntu Condensed", sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
