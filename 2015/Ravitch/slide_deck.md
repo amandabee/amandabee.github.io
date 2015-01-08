@@ -30,6 +30,12 @@ Welcome, who we are.
 
   So this is a plea to you all to realize and understand that not having access to data makes reporting harder, makes accountability harder, isn't okay. Generally.</aside>
 </section>
+
+<section>
+    ![What we know](imgs/foi_knowns.png)  
+    [What politicians know thanks to the Freedom of Information Act](http://clairemiller.net/blog/2015/01/what-politicians-know-thanks-to-the-freedom-of-information-act/), Clair Miller, January 5, 2015
+	<aside class="notes">Welsh journalist Clair Miller keeps a great list of things politicians know that they wouldn't without FOI.</aside>
+</section>
   
 -----
 
@@ -61,6 +67,7 @@ This is a great report from the Trib. Spend some time in it.
 
 NOTES:
 Charts let you show me all the numbers, even the ones that don't make it into the text.
+
 --v--
 
 ![Effective tax rates](imgs/minn_post.png)
@@ -79,7 +86,8 @@ Charts are great for comparisons.
 
 
 
------  
+-----
+  
   <section data-background="imgs/npr_foster.png">
     <small class="caption">[NPR](http://www.npr.org/2011/10/25/141475618/disproportionality-rates-of-native-american-children-in-foster-care)</small>
     <aside class="notes">Data Visualization provides context. NPR did some reporting that is a little old at this point, though few of the details have changed as far as I know. They looked into data that showed that native kids in South Dakota were significantly more likely to be placed in foster care than white kids, even when the circumstances were similar, and that native kids were overwhelmingly going to (and, according to the Lakota People's Law Project being prescribed anti-psychotics at much higher rates --SJ Merc did a similar story on prescription drugs in CA. You should all do that story.) white foster homes. Their data viz piece looked at all fifty states and flagged the states where native kids are substantially more likely to be in foster care and in non-native homes. </aside>
