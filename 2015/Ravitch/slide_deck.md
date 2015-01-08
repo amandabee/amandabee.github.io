@@ -46,13 +46,38 @@ See also: <http://neomam.com/interactive/13reasons/>
 
 --v--
 
-![Broken Bonds](imgs/broken_bonds.png)
+![Broken Bonds](imgs/broken_bonds_better.png)
 
 [Broken bonds](http://apps.chicagotribune.com/bond-debt/), *Chicago Tribune*, Dec 7, 2013
 
 NOTES: 
 
 This is a great report from the Trib. Spend some time in it. 
+
+--v--
+
+![Where Women Fare Best, and Worst](imgs/pay_gap_alt.png)
+[Pay Gap Is Because of Gender, Not Jobs](http://www.nytimes.com/2014/04/24/upshot/the-pay-gap-is-because-of-gender-not-jobs.html), *New York Times*, April 23, 2014
+
+NOTES:
+Charts let you show me all the numbers, even the ones that don't make it into the text.
+--v--
+
+![Effective tax rates](imgs/minn_post.png)
+[Dayton's budget offers a chance to explore the rationale for collecting more taxes](http://www.minnpost.com/politics-policy/2011/02/daytons-budget-offers-chance-explore-rationale-collecting-more-taxes), *Minn Post*, February 15, 2011
+
+NOTES:
+I don't love this, visually, but sometimes all you want to show is how the numbers stack up. 
+
+--v--
+
+![Is it really a billion?](imgs/philly_bail.png)
+[Philadelphia collects court debt decades later](http://www.marketplace.org/topics/wealth-poverty/philadelphia-collects-court-debt-decades-later), Marketplace, December 20, 2012
+
+NOTES: 
+Charts are great for comparisons.
+
+
 
 -----  
   <section data-background="imgs/npr_foster.png">
@@ -75,6 +100,12 @@ This is a great report from the Trib. Spend some time in it.
     <small class="caption">[FEMA Is Buying Out Flood-Prone Homes, But Not Where You Might Expect](http://www.npr.org/blogs/thetwo-way/2014/10/20/357611987/map-femas-buying-out-flood-prone-homes-but-not-where-you-might-expect)</small>
     <aside class="notes">October 20, 2014</aside>
   </section>
+  
+  <section data-background="imgs/pay_gap_alt.png">
+    <small class="caption">[Pay Gap Is Because of Gender, Not Jobs](http://www.nytimes.com/2014/04/24/upshot/the-pay-gap-is-because-of-gender-not-jobs.html), New York Times, April 23, 2014</small>
+    <aside class="notes"></aside>
+  </section>
+
   <section data-background="imgs/trib_cha.png">
     <small class="caption">[Chicago Tribune](http://apps.npr.org/lookatthis/posts/publichousing/)</small>
     <aside class="notes"></aside>
@@ -85,9 +116,7 @@ This is a great report from the Trib. Spend some time in it.
   </section>
   <section data-background="imgs/pta1.png">          
     <small class="caption"><a href="http://sfpublicpress.org/">San Francisco Public Press</a></small>
-    <aside class="notes">
-     
-    </aside>
+    <aside class="notes"></aside>
   </section>
    
   <section data-background="imgs/residential_invest.png">          
@@ -193,6 +222,13 @@ Make the most of your space.
 
 NOTES: 
 Sometimes Small Multiples do a much better job.
+
+--v--
+
+![The ugly version](../../2014/JohnJay/imgs/small_multiples_alt.gif)
+
+NOTES:
+If we put this all on one chart it is a lot harder to read.
 
 --v--
 
