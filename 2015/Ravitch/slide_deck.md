@@ -87,7 +87,11 @@ I don't love this, visually, but sometimes all you want to show is how the numbe
 NOTES: 
 Charts are great for comparisons.
 
+--v-- 
 
+![PTA Fundraising](imgs/pta1.png)
+
+[San Francisco Public Press](http://sfpublicpress.org/)
 
 -----
   
@@ -112,11 +116,6 @@ Charts are great for comparisons.
     <aside class="notes">October 20, 2014</aside>
   </section>
   
-  <section data-background="imgs/pay_gap_alt.png">
-    <small class="caption">[Pay Gap Is Because of Gender, Not Jobs](http://www.nytimes.com/2014/04/24/upshot/the-pay-gap-is-because-of-gender-not-jobs.html), New York Times, April 23, 2014</small>
-    <aside class="notes"></aside>
-  </section>
-
   <section data-background="imgs/trib_cha.png">
     <small class="caption">[Chicago Tribune](http://apps.npr.org/lookatthis/posts/publichousing/)</small>
     <aside class="notes"></aside>
@@ -125,10 +124,7 @@ Charts are great for comparisons.
     <small class="caption">[Chicago Tribune](http://apps.npr.org/lookatthis/posts/publichousing/)</small>
     <aside class="notes"></aside>
   </section>
-  <section data-background="imgs/pta1.png">          
-    <small class="caption"><a href="http://sfpublicpress.org/">San Francisco Public Press</a></small>
-    <aside class="notes"></aside>
-  </section>
+
    
   <section data-background="imgs/residential_invest.png">          
     <small class="caption"><a href="http://www.nytimes.com/2014/04/27/upshot/the-housing-market-is-still-holding-back-the-economy-heres-why.html?rref=upshot">Why the Housing Market Is Still Stalling the Economy</a></small>
@@ -145,12 +141,18 @@ Charts are great for comparisons.
 NOTES:
 Even without a visualization, data is pretty powerful stuff. Ross Keith pulled up NYCHA salary data and was more or less rummaging around in it when he realized that NYCHA Plumbers take home *a lot* of overtime pay. His NY Daily News Cover story has led to City Council Hearings. 
 
------
+--v--
 
-[Numbers aren't everything](http://www.thenewyorkworld.com/2014/04/15/welfare-center-managers-dismissed/) -- it is always easier to [juke the statistics](http://www.latimes.com/local/la-me-crimestats-lapd-20140810-story.html#page=1) than change the facts
+![Welfare Center Numbers](imgs/juke_nyw.png)
+
+[Numbers aren't everything](http://www.thenewyorkworld.com/2014/04/15/welfare-center-managers-dismissed/)...
+
+--v--
+
+![Crime Classifications](imgs/juke_lat.png)
 
 
-![Welfare Center Numbers](imgs/juke_nyw.png) ![Crime Classifications](imgs/juke_lat.png)
+...  it is always easier to [juke the statistics](http://www.latimes.com/local/la-me-crimestats-lapd-20140810-story.html#page=1) than change the facts
 
 --v--
 
@@ -160,30 +162,7 @@ Even without a visualization, data is pretty powerful stuff. Ross Keith pulled u
 
 NOTES: 
 Visualizations aren't neutral.
-
------  
-
-
-
   
-  
------
-
-## There Are Rules
-
-+ [Be Complete](/talks/completeness)
-+ [Watch Your Axes](/talks/2013/aug092013/)
-+ Keep it readable -- don't [distort your pie chart](http://finalbossform.com/post/95231880775/felony-gun-possession-illegal-possession-of-military), for instance. 
-
-+ [Less is More](https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72#)
-+ Know your encoding. [Data Viz Catalog](http://www.datavizcatalogue.com/)
-+ Make it look good. [Not like this](http://finalbossform.com/post/95231880775/felony-gun-possession-illegal-possession-of-military) or [this](http://www.dailywireless.org/2014/07/28/more-broadband-subs-than-video-subs/) or [this](http://ilovecharts.tumblr.com/post/88368733301/hi-guys-today-im-headed-down-to-the-white)
-
---v--
-** Don't [confuse correlation and causation](http://www.businessinsider.com/spurious-correlations-by-tyler-vigen-2014-5#ixzz31FAUIoTZ)**
-
- ![Not causation](imgs/correlation.png)
-
 -----
 
 # Hands On!
@@ -193,27 +172,15 @@ We have some good hands on projects to tackle.
 
 --v--
 
-## Tools We Use
-+ [CartoDB](http://cartodb.com/)
-+ R (and [RStudio](http://rstudio.com/))
-+ [LibreOffice Calc](http://libreoffice.org/calc)
-+ [Highcharts](http://www.highcharts.com/)
-+ [D3](http://d3js.org/)
-+ [QGIS](http://qgis.org/en/site/)
-
---v--
-
-## More super easy tools:
-* Medium's [Charted](https://medium.com/data-lab/introducing-charted-15161b2cd71e)
-* [Datawrapper](http://Datawrapper.de)
-* Quartz's [ChartBuilder](http://quartz.github.io/Chartbuilder/)
-* [RAW](http://app.raw.densitydesign.org/) -- for flat graphics to edit in illustrator
-* Theres been a lot of chatter about <http://silk.co> and people love Tableau, but I often have trouble loading graphics from both. I've had Tableau embeds crash my browser on more than one computer. Plus, it isn't [free](https://www.gnu.org/philosophy/free-sw.html)
-
------
 ## What makes good data viz work?
 
-[Less is More](https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72)
+> [Less is More](https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72)
+
+> Know your encoding. Not sure? Check out the [Data Viz Catalog](http://www.datavizcatalogue.com/)
+
+> Style guides [ProPublica's](https://github.com/propublica/guides) make for consistency across a publication. 
+
+
 
 --v--
 
@@ -242,6 +209,24 @@ NOTES:
 If we put this all on one chart it is a lot harder to read.
 
 --v--
+## What not to do
+
+![Tax Cut Expiry](../../2013/JustPublics/slide8.png)
+
+<a href="http://mediamatters.org/blog/2012/07/31/dishonest-fox-chart-bush-tax-cut-edition/189046">Media Matters for America</a>, July 31, 2012.
+
+--v--
+
+![Tax Cut Expiry](../../2013/JustPublics/obama_gas1.jpg) ![Tax Cut Expiry](../../2013/JustPublics/obama_gas2.png)
+
+NPR's "It's all politics" <a href="http://www.npr.org/blogs/itsallpolitics/2013/02/13/171935151/chart-check-did-obama-s-graphics-enhance-his-big-speech">fact checked</a> President Obama's State of the Union slides.
+
+NOTES:
+
+This isn't just a Fox News problem. 
+
+
+--v-- 
 
 ![Shiller CAPE vs Implied Return](imgs/shiller.png "Reformed Broker")  
 
@@ -274,11 +259,40 @@ If it doesn't belong on a continuum, don't put it on a continuum. What goes betw
 NOTES: 
 Probably worth scrolling down to look at the last image and talk about formats and not putting text inside of a picture.
 
------
+--v--
+
+A few more for the wall of shame 
+
+Don't [distort your pie chart](http://finalbossform.com/post/95231880775/felony-gun-possession-illegal-possession-of-military).  Use consistent styles to avoid [this](http://www.dailywireless.org/2014/07/28/more-broadband-subs-than-video-subs/) and [this](http://ilovecharts.tumblr.com/post/88368733301/hi-guys-today-im-headed-down-to-the-white).	
+
+----- 
 
 
-  <section data-background="imgs/small_mult_worldcup.png">  
-    <small class="caption"><a href="http://www.theguardian.com/football/interactive/2013/dec/18/world-cup-2014-draw-strength-of-schedule#gia-wc-draw-matches-title">Who has the hardest World Cup 2014 draw?</a></small>
-    <aside class="notes">Never put more than two items in a pie chart, but you can make lots of pie charts.</aside>
-  </section>
+## Tools We Use
++ [CartoDB](http://cartodb.com/)
++ R (and [RStudio](http://rstudio.com/))
++ [LibreOffice Calc](http://libreoffice.org/calc)
++ [Highcharts](http://www.highcharts.com/)
++ [D3](http://d3js.org/)
++ [QGIS](http://qgis.org/en/site/)
+
+--v--
+
+## More super easy tools:
+* Medium's [Charted](https://medium.com/data-lab/introducing-charted-15161b2cd71e)
+* [Datawrapper](http://Datawrapper.de)
+* Quartz's [ChartBuilder](http://quartz.github.io/Chartbuilder/)
+* [RAW](http://app.raw.densitydesign.org/) -- for flat graphics to edit in illustrator
+* Theres been a lot of chatter about <http://silk.co> and people love Tableau, but I often have trouble loading graphics from both. I've had Tableau embeds crash my browser on more than one computer. Plus, it isn't [free](https://www.gnu.org/philosophy/free-sw.html)
+
+--v--
+
+#Stay in Touch
+
+@amandabee | @qdbui
+
+--v--
+
+<a href="http://uxdesign.smashingmagazine.com/2012/06/20/links-should-never-say-click-here/">Never</a> "<a href="http://www.moghill.co.uk/wp/never-say-click-here-website-sins/">click here</a>"
+
 
