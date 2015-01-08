@@ -199,7 +199,7 @@ Make the most of your space.
 [A Court System Mired in Delays](http://www.nytimes.com/2013/04/14/nyregion/justice-denied-bronx-court-system-mired-in-delays.html), *New York Times*; April 4, 2014
 
 NOTES: 
-Sometimes Small Multiples do a much better job.
+Sometimes Small Multiples do a much better job. More small multiples at [Everything the 113th Congress did (and didn’t do), in two amazing charts](http://www.washingtonpost.com/blogs/the-fix/wp/2014/12/18/the-productivity-of-the-113th-congress-such-as-it-was-visualized/)
 
 --v--
 
@@ -268,7 +268,7 @@ Don't [distort your pie chart](http://finalbossform.com/post/95231880775/felony-
 ----- 
 
 
-## Tools We Use
+## Tools we use
 + [CartoDB](http://cartodb.com/)
 + R (and [RStudio](http://rstudio.com/))
 + [LibreOffice Calc](http://libreoffice.org/calc)
@@ -278,12 +278,23 @@ Don't [distort your pie chart](http://finalbossform.com/post/95231880775/felony-
 
 --v--
 
-## More super easy tools:
+## More super easy tools
 * Medium's [Charted](https://medium.com/data-lab/introducing-charted-15161b2cd71e)
 * [Datawrapper](http://Datawrapper.de)
 * Quartz's [ChartBuilder](http://quartz.github.io/Chartbuilder/)
 * [RAW](http://app.raw.densitydesign.org/) -- for flat graphics to edit in illustrator
 * Theres been a lot of chatter about <http://silk.co> and people love Tableau, but I often have trouble loading graphics from both. I've had Tableau embeds crash my browser on more than one computer. Plus, it isn't [free](https://www.gnu.org/philosophy/free-sw.html)
+
+--v-- 
+
+
+## Keep learning
++ [NICAR-L](http://www.ire.org/resource-center/listservs/subscribe-nicar-l/)
++ [NICAR and IRE conferences](http://ire.org/conferences/)
++ Stack Exchange (what makes a good question)
++ [Nathan Yau's tutorials](http://flowingdata.com/)
+
+
 
 --v--
 
