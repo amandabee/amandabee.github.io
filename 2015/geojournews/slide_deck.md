@@ -86,4 +86,4 @@
 
 #Stay in Touch
 
-@amandabee
+@amandabee | amanda@velociraptor.info
