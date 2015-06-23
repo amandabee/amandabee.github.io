@@ -34,12 +34,12 @@ NOTES: The real reason we do this is because it tells a story.
     <aside class="notes">It is one thing to say "this dude uses three tiems as much water as anyone else. It's another thing to actually look at how each of these officials stacks up. I'm usually opposed to gimicks like the house icon here, but it really drives home how much more water these officials are using. </aside>
 
 </section>
-<section data-background="/talks/Dodge2014/latimes.png">
+<section data-background="/talks/2014/Dodge/latimes.png">
     <small class="caption">[How fast is LAFD where you live?](http://graphics.latimes.com/how-fast-is-lafd/#10/33.9661/-118.6201)</small>
     <aside class="notes">In Nov of 2012, th LA Times started reporting on serious problems in the city's 911 system. One of the things you can really see in this project is how much of the city is affected. </aside>
 </section>
 
-<section data-background="/talks/Dodge2014/sfpp_quake.png">
+<section data-background="/talks/2014/Dodge/sfpp_quake.png">
   <small class="caption">[San Francisco Public Press](http://sfpublicpress.org/softstorylist)</small>
   <aside class="notes">San Francisco Public Press got ahold of a list of buildings that the city had identified as being vulnerable to earthquakes -- the city had been sitting on the list for several years, but after SFPP published their story about these buildings, the board of supervisers got cracking on legislation to require the buildings be retrofitted. </aside>
 </section>
@@ -131,7 +131,7 @@ Look for white space and find a way to use it.
 ## Don't make me work
 --v--
 
-![Gothamist turnstyle data](/talks/aug092013/slide10.png)
+![Gothamist turnstyle data](/talks/2013/JustPublics/slide10.png)
 
 NOTES: 
 This also happens to be a bit silly because the real takeaway here is "Busy Stations are Busy" which I hope doesn't come as a great surprise. But even to get that far I have to look at the chart, Look up at the top right where it explains that the y-axis is Weekends, remember that the Y axis is the horizontal one, and then the grid isn't even in squares. The point of a visualization is to make the numbers *easier* to understand. Not harder.
@@ -145,7 +145,7 @@ This also happens to be a bit silly because the real takeaway here is "Busy Stat
 
 --v--
 
-![Gas wells chart](/talks/aug092013/obama_gas1.jpg) ![Gas wells chart do-over](/talks/aug092013/obama_gas2.png)
+![Gas wells chart](/talks/2013/JustPublics/obama_gas1.jpg) ![Gas wells chart do-over](/talks/2013/JustPublics/obama_gas2.png)
 
 <small>NPR's ["It's all politics"](http://www.npr.org/blogs/itsallpolitics/2013/02/13/171935151/chart-check-did-obama-s-graphics-enhance-his-big-speech) fact checked President Obama's 2013 State of the Union slides.
 
