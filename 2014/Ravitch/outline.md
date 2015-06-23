@@ -202,8 +202,8 @@ I'm not an artist. I'm not even that creative. All of these rules are rules that
 
 **Some Excellent Rules**
 
-+ [Be Complete](/talks/completeness)
-+ [Watch Your Axes](/talks/aug092013/)
++ [Be Complete](/talks/2013/JustPublics-completeness)
++ [Watch Your Axes](/talks/2013/JustPublics/)
 + Keep it readable -- don't [distort your pie chart](http://finalbossform.com/post/95231880775/felony-gun-possession-illegal-possession-of-military), for instance. 
 + [Numbers aren't everything](http://www.thenewyorkworld.com/2014/04/15/welfare-center-managers-dismissed/) -- it is always easier to [juke the statistics](http://www.latimes.com/local/la-me-crimestats-lapd-20140810-story.html#page=1) than change the facts
 + [Less is More](https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72#)
