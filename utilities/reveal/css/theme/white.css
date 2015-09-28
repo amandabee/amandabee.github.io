@@ -22,7 +22,7 @@ body {
   background: -o-radial-gradient(center, circle cover, white 0%, #fff 100%);
   background: -ms-radial-gradient(center, circle cover, white 0%, #fff 100%);
   background: radial-gradient(center, circle cover, white 0%, #fff 100%);
-  background-color: #f7f3de; }
+  background-color: #FFF; }
 
 .reveal {
   font-family: "Abel", sans-serif;
@@ -54,10 +54,10 @@ body {
   text-shadow: none; }
 
 .reveal h1 {
-/*  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 
-0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 
-0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 
-0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 
+/*  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9,
+0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa,
+0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
 */
 font-size: 2em;
@@ -88,11 +88,11 @@ font-size: 1.5em;
   color: #fff;
   background: #564826; }
 
- 
+
 .reveal .caption a {
   background: #FFF;
   color: #666;
-  padding: 5px; 
+  padding: 5px;
 /*  border: 1px dashed #999;*/
 }
 
@@ -170,3 +170,8 @@ margin-top: 30%;
  *********************************************/
 .reveal .slide-number {
   color: #3a3a3a; }
+
+.reveal .slides > section {
+    left: -50%;
+    top: -60%;
+}
