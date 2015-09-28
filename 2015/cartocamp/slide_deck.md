@@ -1,23 +1,25 @@
 
+# &nbsp;
+# &nbsp;
+
+# &nbsp;
 
 #Mapping (in Journalism School)
 ##Amanda Hickman (@amandabee)
 
 --v--
 
-# Then:  
-![CUNY](/talks/utilities/cunyj-logo.png "CUNY Graduate School of Journalism")
+# Recently: ![CUNY](/talks/utilities/cunyj-logo.png "CUNY Graduate School of Journalism")
 
-# Now:  
-![Buzzfeed](/talks/utilities/buzzfeed_trending.gif "Buzzfeed Open Lab for Journalism, Technology and the Arts")
+# Currently: ![Buzzfeed](/talks/utilities/buzzfeed_trending.gif "Buzzfeed Open Lab for Journalism, Technology and the Arts")
 
 
 NOTES:
 For the last four years I've been teaching data skills at CUNY's Graduate School of Journalism, but I recently moved to San Francisco and yesterday I started a Fellowship at Buzzfeed where I'll be leading our new Open Lab for Journalism Technology and the Arts.
 
 --v--
-![Buzzfeed](/talks/utilities/buzzfeed_trending_150.gif "Buzzfeed Open Lab for Journalism, Technology and the Arts")
-# Open Lab for Journalism, Technology and the Arts
+<span style="float:left; padding-left: 35px;">![Buzzfeed](/talks/utilities/buzzfeed_trending_150.gif "Buzzfeed Open Lab for Journalism, Technology and the Arts")</span>
+# Open Lab for Journalism, <br /> Technology and the Arts
 
 
 ![Boom](imgs/bf_robot_toast.gif) ![Boom](imgs/bf_robot_dance.gif)  ![Boom](imgs/bf_dancing_transformer.gif)  
@@ -27,23 +29,6 @@ For the last four years I've been teaching data skills at CUNY's Graduate School
 NOTES:
 We're welcoming our inaugural class of fellows later this month. We've got some really fantastic stuff up our sleeves and it is going to be a great year, but we're also going to be putting out a call for the next cohort of fellows sometime next Spring, so keep your eyes out for folks who would get as much out of the lab as they'd bring to it!
 
-
------
-
-<section data-background="imgs/vony_prek.png">
-    <small class="caption">[Voices of New York, Tracking the Pre-K Rollout](http://www.voicesofny.org/2014/04/tracking-nycs-pre-k-rollout/)</small>
-    <aside class="notes">We looked at the intitial data about where the Pre-k sites are.</aside>
-</section>
-
-<section data-background="imgs/vony_toddlers.png">
-    <small class="caption">[Voices of New York, Tracking the Pre-K Rollout](http://www.voicesofny.org/2014/04/tracking-nycs-pre-k-rollout/)</small>
-    <aside class="notes">and compared that to 2010 birhts, by community board.</aside>
-</section>
-
-<section data-background="imgs/wnyc_prek.png">
-    <small class="caption">[WNYC](http://project.wnyc.org/schoolbook-prek/)</small>
-    <aside class="notes">When the final numpers came out, WNYC did us one better and really illustrated where the gaps are. </aside>
-</section>
 
 -----
 
