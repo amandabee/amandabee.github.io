@@ -3,9 +3,9 @@
 #Telling Better Stories with Data
 ##Amanda Hickman | @amandabee  
   ![CUNY](/talks/utilities/cuny_square_RGB_orange.jpg "CUNY Graduate School of Journalism")
-  
+
 NOTES:
-I know a little bit about you from your bios, but I'd love to get a sense of your experience and the kind of data you already have access to.  What are your major hurldes?  How confident are you working with data? Displaying it? 
+I know a little bit about you from your bios, but I'd love to get a sense of your experience and the kind of data you already have access to.  What are your major hurldes?  How confident are you working with data? Displaying it?
 
 --v--
 
@@ -17,7 +17,7 @@ I know a little bit about you from your bios, but I'd love to get a sense of you
 ![Cover Art for How to Teach Adults](imgs/how_to_teach_adults-sm.png "How to Teach Adults")
 
 NOTES:
-We know these things about how adults learn. About the human brain. We could scuttled down some [developmental psychology rabbit holes](http://en.wikipedia.org/wiki/Learning_styles#Fleming.27s_VAK.2FVARK_model) 
+We know these things about how adults learn. About the human brain. We could scuttled down some [developmental psychology rabbit holes](http://en.wikipedia.org/wiki/Learning_styles#Fleming.27s_VAK.2FVARK_model)
   here, but we know that some people learn better if they can see something visualized. Some people are tactile learners, they need to be able to manipulate something themselves. And what that means for us is that more people can get more out of your reporting if you incorporate visual storytelling alongside your text.
 
 See also: <http://neomam.com/interactive/13reasons/>
@@ -26,7 +26,7 @@ See also: <http://neomam.com/interactive/13reasons/>
 
 ## Data Visualization Changes Stories
 
-NOTES: The real reason we do this is because it tells a story. 
+NOTES: The real reason we do this is because it tells a story.
 
 -----
 <section data-background="imgs/CIR_guzzles.png">
@@ -53,7 +53,7 @@ NOTES: The real reason we do this is because it tells a story.
 </section>
 
 <section data-background="imgs/slide28.png">
-    <small class="caption">[WNYC Teen Stop and Frisk](hhttp://project.wnyc.org/stop-frisk-teens/index.html)</small>
+    <small class="caption">[WNYC Teen Stop and Frisk](http://project.wnyc.org/stop-frisk-teens/index.html)</small>
 </section>
 
 <section data-background="imgs/nyt_pd-race-gap.png">
@@ -65,7 +65,7 @@ NOTES: The real reason we do this is because it tells a story.
 -----
 
 [<img src="imgs/deep_dives.png" style="float:right" alt="Wa Po Screenshot" />](http://apps.washingtonpost.com/national/pardons/)
-# More Deep Dives 
+# More Deep Dives
 
 + NPR on [Unintended Accelleration](http://www.npr.org/templates/story/story.php?storyId=124276771)
 + Milwaukee Journal Sentinel on [board paychecks](http://www.jsonline.com/watchdog/watchdogreports/97242609.html)
@@ -114,8 +114,8 @@ Lena Groeger has a [great writeup on the value of going small](http://www.propub
 
 <small>From *NY Times*, [Is College Worth It? Clearly, New Data Say](http://www.nytimes.com/2014/05/27/upshot/is-college-worth-it-clearly-new-data-say.html)</small>
 
-NOTES: 
-One of the ways that outlets like the NY Times stand out is how they wrap their data. You'll never read a caption like "The chart below shows..." -- words are precious, so conserve them. 
+NOTES:
+One of the ways that outlets like the NY Times stand out is how they wrap their data. You'll never read a caption like "The chart below shows..." -- words are precious, so conserve them.
 
 --v--
 ## Make the most of your space
@@ -123,7 +123,7 @@ One of the ways that outlets like the NY Times stand out is how they wrap their 
 ![Chart: Poor Record Keeping Hinders Analysis of Domestic Violence Policing Practices](imgs/SFPP_poor_record.jpg)
 
 NOTES:
-Look for white space and find a way to use it. 
+Look for white space and find a way to use it.
 
 
 
@@ -133,7 +133,7 @@ Look for white space and find a way to use it.
 
 ![Gothamist turnstyle data](/talks/2013/JustPublics/slide10.png)
 
-NOTES: 
+NOTES:
 This also happens to be a bit silly because the real takeaway here is "Busy Stations are Busy" which I hope doesn't come as a great surprise. But even to get that far I have to look at the chart, Look up at the top right where it explains that the y-axis is Weekends, remember that the Y axis is the horizontal one, and then the grid isn't even in squares. The point of a visualization is to make the numbers *easier* to understand. Not harder.
 
 --v--
@@ -149,7 +149,7 @@ This also happens to be a bit silly because the real takeaway here is "Busy Stat
 
 <small>NPR's ["It's all politics"](http://www.npr.org/blogs/itsallpolitics/2013/02/13/171935151/chart-check-did-obama-s-graphics-enhance-his-big-speech) fact checked President Obama's 2013 State of the Union slides.
 
-NOTES: Fox definitely doesn't have a monopoly on distorting the Y axis. There are times when you're going to be tempted to zoom in, but make sure you're confident that you aren't grossly distoring the numbers. 
+NOTES: Fox definitely doesn't have a monopoly on distorting the Y axis. There are times when you're going to be tempted to zoom in, but make sure you're confident that you aren't grossly distoring the numbers.
 
 --v--
 ## Continuous Things on a Continuum
@@ -161,7 +161,7 @@ NOTES: Fox definitely doesn't have a monopoly on distorting the Y axis. There ar
 NOTES:
 And, while you're in there, ask yourself if you need a key!
 
-Pixels are precious. 
+Pixels are precious.
 
 --v--
 ## Numbers Have Perspective, too
@@ -211,7 +211,7 @@ Karen De Sa incorporated a great timeline into her package, [Drugging our Kids](
 + [ChartBuilder](http://quartz.github.io/Chartbuilder/)
 + [and some more](http://www.fastcodesign.com/3029239/infographic-of-the-day/30-simple-tools-for-data-visualization) tools other folks like
 
---v-- 
+--v--
 
 ## For Maps
 
@@ -233,8 +233,8 @@ Karen De Sa incorporated a great timeline into her package, [Drugging our Kids](
 
 <https://github.com/amandabee/cunyjdata/wiki/Where-to-Find-Data-(Juvenile-Justice-Edition)>
 
-NOTES: 
-I keep a wiki for my data visualization classes. I'll be working with a handful of fellows on data and visualization projects and I'm hoping we can really flesh out that wiki page. 
+NOTES:
+I keep a wiki for my data visualization classes. I'll be working with a handful of fellows on data and visualization projects and I'm hoping we can really flesh out that wiki page.
 
 -----
 # Do we have any time left?
@@ -250,7 +250,7 @@ I keep a wiki for my data visualization classes. I'll be working with a handful 
 
 --v--
 
-## <http://jsfiddle.net/1bgn4j02/7/> 
+## <http://jsfiddle.net/1bgn4j02/7/>
 
 My first pass.
 
