@@ -117,6 +117,14 @@ NOTES:
 
 In 2014, New York city released [data on motor vehicle collisions](https://data.cityofnewyork.us/NYC-BigApps/NYPD-Motor-Vehicle-Collisions/h9gi-nx95) -- the details of more than 300,000 collisions. The folks at CartoDB, [mapped that data](http://t.co/tJx8lNmSqF) with a different look. I don't know yet what will come of this but if New York City is going to achieve Vision Zero, more people need to be looking at where the dangerous intersections are.
 
+--v--
+
+![Bike Messenger](../imgs/jeremijenko_bikes.jpg "xClinic Newsmotion Mexico City")
+
+[xClinic  Newsmotion (NM) Bike Messengers](http://www.environmentalhealthclinic.net/archives/bike-messenger)
+
+NOTES: 
+And then you can go totally bonkers -- Natalie Jeremijenko rigged bicycles in Mexico City with LED displays that are only really visible as the cyclist is moving, and GPS units, so that as cyclists pass through intersections they broadcast data about the intersection, including traffic fatalities.
 
 -----
 
