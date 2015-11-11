@@ -25,7 +25,8 @@ The Public Press has been doing great data work since long before I got here.
 
 
 ![Quake Map](../imgs/sfpp_quake.png "A Very Rough List")
-  [San Francisco Public Press](http://sfpublicpress.org/softstorylist)
+
+[San Francisco Public Press](http://sfpublicpress.org/softstorylist)
 
 NOTES:  
 San Francisco Public Press got ahold of a list of buildings that the city had identified as being vulnerable to earthquakes -- the city had been sitting on the list for several years, but after SFPP published their story about these buildings, the board of supervisors got cracking on legislation to require the buildings be retrofitted.
@@ -51,21 +52,30 @@ Some really important caveats about data. What do you think is the best way to r
 ...  it is always easier to [juke the statistics](http://www.latimes.com/local/la-me-crimestats-lapd-20140810-story.html#page=1) than change the facts
 
 -----
-<section data-background="../imgs/CIR_guzzles.png">
-    <small class="caption">[October 2014 <br /> Center for Investigative Reporting](https://beta.cironline.org/reports/california-water-officials-arent-following-own-call-for-conservation/)</small>
-    <aside class="notes">It is one thing to say "this dude uses three times as much water as anyone else." It's another thing to actually look at how each of these officials stacks up. </aside>
-</section>
-<section data-background="../imgs/latimes.png">
-    <small class="caption">[Nov 2012, Los Angeles Times <br />How fast is LAFD where you live?](http://graphics.latimes.com/how-fast-is-lafd/#10/33.9661/-118.6201)</small>
-    <aside class="notes">In Nov of 2012, th LA Times started reporting on serious problems in the city's 911 system. One of the things you can really see in this project is how much of the city is affected. </aside>
-</section>
-
-<section data-background="../imgs/slide28.png">
-    <small class="caption">[WNYC, 2012 ](http://project.wnyc.org/stop-frisk-teens/index.html)</small>
-</section>
+![CIR Guzzlers](../imgs/CIR_guzzles.png)
 
 
------
+[October 2014 <br /> Center for Investigative Reporting](https://beta.cironline.org/reports/california-water-officials-arent-following-own-call-for-conservation/)
+
+NOTES:
+It is one thing to say "this dude uses three times as much water as anyone else." It's another thing to actually look at how each of these officials stacks up.
+
+--v--
+![How fast is LAFD](../imgs/latimes.png "How fast is LAFD where you live?")
+
+
+[Nov 2012, Los Angeles Times <br />How fast is LAFD where you live?](http://graphics.latimes.com/how-fast-is-lafd/#10/33.9661/-118.6201)
+
+NOTES:
+In Nov of 2012, th LA Times started reporting on serious problems in the city's 911 system. One of the things you can really see in this project is how much of the city is affected. 
+
+--v--
+
+![WNYC Teen Stop and Frisk](../imgs/slide28.png)
+
+[WNYC, 2012](http://project.wnyc.org/stop-frisk-teens/index.html)
+
+--v--
 ![NYCHA OT](../imgs/nycha_ot_hearing.png) ![NYCHA OT](../imgs/nycha_ot.png)
 
 [City Council members confront NYCHA over skyrocketing overtime costs](http://www.nydailynews.com/news/politics/nycha-confronted-council-skyrocketing-overtime-costs-article-1.2048002), *New York Daily News*, December 17, 2014; [NYCHA paid $106 million in overtime to workers in 2014 — with plumbers at top of list](http://www.nydailynews.com/new-york/exclusive-nycha-paid-106-million-overtime-2014-article-1.2046654) *New York Daily News*, December 16, 2014
@@ -101,7 +111,7 @@ For years, Transportation Alternatives collected data on pedestrian and cyclist 
 
 ![CrashStat](../imgs/crashstat_cartodb.png)
 
-[CartoDB](http://t.co/tJx8lNmSqF)
+A crashstat remake on [CartoDB](http://t.co/tJx8lNmSqF)
 
 NOTES:
 
