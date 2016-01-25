@@ -5,7 +5,7 @@ BuzzFeed Open Lab for Journalism, Technology, and the Arts
 
 <http://buzzfeed.com/openlab>
 
-Amanda Hickman
+Amanda Hickman <br />
 ^^ Senior Fellow
 
 NOTES:
