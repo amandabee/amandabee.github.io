@@ -1,3 +1,33 @@
+# Intro
+
+
+LINC Project; Movement building
+
+# Open Lab
+
+As a lab, our mission is to pull at the edges of how we tell stories and gather information. For us, that means that we're tinkering with mapping projections together so we can simulate an expensive 10,000 lumen projector with a few smaller projectors. It means
+
+IMG: 360 Kit
+
+Everything we do is Open Source for two super practical reasons. Or three, or four or five.
+
+The big things that open source does for us, on a practical level, are these:
+
++ Fellows are here for a year. After that year, they'll go on and do amazing things. And they can take everything they worked on in the lab with them. And BuzzFeed can continue to use those things.
+
++ Our mission, as a lab, is not to be BuzzFeed's crazy top secret R&D shop. We're here to change journalism. Or at least tug at the threads of what is possible. And We can't do that by showing everyone our finished product and
+
+
+# Community
+
+There's absolutely no question that BuzzFeed maximizes the investment in
+
+IMG: Puppy Feeder
+
+But being an "open" lab makes all kinds of things possible for us. It recognizes that the value of the lab, from an R&D perspective, is that BuzzFeed has acess to this team of incredibly smart, creative people who are game to try new things. We have this team that is prepared to drop everything to build out a proof of concept.
+
+But we wouldn't be able to do this without collaborators. Every one of us reaches out to our networks for guidance, mentoring, big thinking and little assists. That's basically true everywhere but I think that it matters to say "I'm not asking you to volunteer to help me build my business. This thing I'm building with your help ... you can use it, too. You don't have to reverse engineer it when I'm done. I'll document it."
+
 Slide: Open Lab
 
 I run an art and technology residency at BuzzFeed called the Open Lab for Journalism, Technology, and the Arts.
