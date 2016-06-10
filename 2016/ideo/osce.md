@@ -23,6 +23,8 @@ NOTES:
 
 When we talk about Open Source, we mean a whole lot of different things. We mean mapping data in Open Street Maps, music and images released under Creative Commons licenses, the design for a really smart [prosthetic arm](http://openprosthetics.org/) or the plans for a [pedal powered root washer](http://farmhack.org/tools). And we mean code.
 
+(If you don't know Farm Hack, you should: I think of them as coming out of the Young Farmer's Coalition but I think that actually my friend Lindsay introduced me to both.)
+
 --v--
 
 ![360 Field Kit](../imgs/buzzfeed/360_field_kit.jpg "Field Kit")
@@ -64,11 +66,11 @@ And so, for me, one thing that means is that I look at journalism as a mission. 
 
 I also make a practice of *using* free and open source software whenever possible, because I think that access to quality software matters a great deal and I know that by using software I'm actually making software better.
 
-## Using software *is* contributing to software.
+## Using software is contributing to software.
 
 When you use a tool you build community around that tool. Even if you don't realize it. Because eventually you're going to show a frustrated co-worker that there's another view they can use, one that's way easier. Someone is going to ask you why our office slack has a LaCroix emoji and no one else's does and you might laugh and say "I'm not telling" but eventually they're going to figure out how you did that. And then they'll do it and then they'll be better at using Slack, too. Bit by bit, we build community around the tools we use. You send someone an MS Word document and they realize that you're doing something really smart with outlines. They know it can be done, they do it to.
 
-I use LibreOffice day to day, and so when a friend get stuck on a spreadsheet task and asks for help, I usually wind up saying "huh. Here's how I'd solve that in Calc. My guess is that Excel works the same way." It often does, but the more often I point that out the easier it is for someone to decide they're not going to spend $100 on MS Office, they're going to try using Calc.
+I use LibreOffice to do basic word processing/spreadsheets, so when a friend get stuck on a spreadsheet task and asks for help, I usually wind up saying "huh. Here's how I'd solve that in Calc. My guess is that Excel works the same way." It often does, but the more often I point that out the easier it is for someone to decide they're not going to spend $100 on MS Office, they're going to try using Calc.
 
 A side note, if we need it: Calc is not built by a team of benevolent helpful programmers. It is supported by people who make their living providing support for the software. Or by firms that need a working office suite for their entire organization and are willing to work to make Calc better instead of buying MS licenses for everyone.
 
