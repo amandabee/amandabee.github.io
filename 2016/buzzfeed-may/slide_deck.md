@@ -15,7 +15,7 @@ The Open Lab is a workshop and fellowship program in the San Francisco bureau. W
 
 --v--
 
-Ainsley Sutherland / [@ainsley](http://twitter.com/AAAinsley) -- virtual reality, photogrammetry 
+Ainsley Sutherland / [@ainsley](http://twitter.com/AAAinsley) -- virtual reality, photogrammetry
 
 Amanda Hickman / [@amanda](https://www.buzzfeed.com/amandahickman) -- data, mapping, privacy, FOIA, madlibs
 

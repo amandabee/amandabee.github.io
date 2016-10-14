@@ -115,3 +115,12 @@ Mapping, mad libs, privacy
 
 NOTES:
 There's also an #openlab channel but don't join that. We chat waaay too much in there. We'll open our call for new fellows very soon, so keep an eye out.
+
+--v--
+
+
+![Open Lab](../imgs/buzzfeed/400x400.png "BuzzFeed Open Lab")
+
+Find us at **#openlab-chat** and **#openlab-dev**<br /> if you want to kick some ideas around. Or email me! <amanda.hickman@buzzfeed.com>
+
+<http://buzzfeed.com/openlab>
